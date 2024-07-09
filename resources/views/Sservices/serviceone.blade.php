@@ -33,10 +33,9 @@
                         <a href="service-details.html" class="thumbnail"><img src="assets/images/service/02.jpg" alt="Business_image"></a>
                         <div class="body-content">
                             <div class="hidden-area">
-                                <h5 class="title">Strategy Growth</h5>
+                                <h5 class="title">Comprehensive Study Plans</h5>
                                 <p class="dsic">
-                                    Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
-                                    bibendum morbi laoreet lobortis id
+                                Our experts create personalized study plans, guiding students to achieve their academic goals effectively.
                                 </p>
                                 <a class="rts-read-more-two color-primary" href="service-details.html">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
@@ -50,10 +49,9 @@
                         <a href="service-details.html" class="thumbnail two"><img src="assets/images/service/03.jpg" alt="Business_image"></a>
                         <div class="body-content">
                             <div class="hidden-area">
-                                <h5 class="title">Grow Business</h5>
+                                <h5 class="title">School Selection</h5>
                                 <p class="dsic">
-                                    Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
-                                    bibendum morbi laoreet lobortis id
+                                We help students choose the best universities and programs for their interests and career goals.
                                 </p>
                                 <a class="rts-read-more-two color-primary" href="service-details.html">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
@@ -67,10 +65,9 @@
                         <a href="service-details.html" class="thumbnail three"><img src="assets/images/service/04.jpg" alt="Business_image"></a>
                         <div class="body-content">
                             <div class="hidden-area">
-                                <h5 class="title">Proudly Speech</h5>
+                                <h5 class="title">Application Preparation</h5>
                                 <p class="dsic">
-                                    Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
-                                    bibendum morbi laoreet lobortis id
+                                We provide support to ensure school applications are complete and impactful
                                 </p>
                                 <a class="rts-read-more-two color-primary" href="service-details.html">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
@@ -84,10 +81,10 @@
                         <a href="service-details.html" class="thumbnail"><img src="assets/images/service/02.jpg" alt="Business_image"></a>
                         <div class="body-content">
                             <div class="hidden-area">
-                                <h5 class="title">Model Building</h5>
+                                <h5 class="title">Visa and Immigration Support</h5>
                                 <p class="dsic">
-                                    Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
-                                    bibendum morbi laoreet lobortis id
+                                    
+                                We guide students smoothly through the visa and immigration process, ensuring all requirements are met efficiently
                                 </p>
                                 <a class="rts-read-more-two color-primary" href="service-details.html">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
@@ -101,10 +98,9 @@
                         <a href="service-details.html" class="thumbnail two"><img src="assets/images/service/03.jpg" alt="Business_image"></a>
                         <div class="body-content">
                             <div class="hidden-area">
-                                <h5 class="title">Solution Model</h5>
+                                <h5 class="title">Interview Preparation</h5>
                                 <p class="dsic">
-                                    Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
-                                    bibendum morbi laoreet lobortis id
+                                We coach students to confidently present themselves in school interviews, ensuring they make a strong impression.
                                 </p>
                                 <a class="rts-read-more-two color-primary" href="service-details.html">Read More<i class="far fa-arrow-right"></i></a>
                             </div>
@@ -118,10 +114,10 @@
                         <a href="service-details.html" class="thumbnail three"><img src="assets/images/service/04.jpg" alt="Business_image"></a>
                         <div class="body-content">
                             <div class="hidden-area">
-                                <h5 class="title">Finbiz Solution</h5>
+                                <h5 class="title">
+                                Career Counseling</h5>
                                 <p class="dsic">
-                                    Porta sagittis diam imperdiet eu, tempus nisi aenean vehicula torquent dis mattis nullam
-                                    bibendum morbi laoreet lobortis id
+                                We help students identify their strengths and interests, guiding them toward suitable and rewarding career paths
                                 </p>
                                 <a class="rts-read-more-two color-primary" href="service-details.html">Read More<i class="far fa-arrow-right"></i></a>
                             </div>

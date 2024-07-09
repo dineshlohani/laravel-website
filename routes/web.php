@@ -13,32 +13,8 @@ Route::get('/contact-us', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('/about-us', function () {
-    return view('aboutus');
-})->name('about');
 
-Route::get('/service-details', function () {
-    return view('service');
-})->name('service');
-
-Route::get('/Our-Service', function () {
-    return view('serviceone');
-})->name('serviceone');
-
-Route::get('/Our-Services', function () {
-    return view('servicetwo');
-})->name('servicetwo');
-
-
-Route::get('/our-services', function () {
-    return view('servicethree');
-})->name('servicethree');
-
-
-Route::get('/take-appointment', function () {
-    return view('appointment');
-})->name('appointment');
-
+//partials
 Route::get('/header', function () {
     return view('header');
 });
@@ -57,3 +33,68 @@ Route::get('/sidebar', function () {
 Route::get('/script', function () {
     return view('script');
 });
+
+
+
+// Pages route
+
+Route::get('/about-us', function () {
+    return view('Spages.aboutus');
+})->name('about');
+
+Route::get('/take-appointment', function () {
+    return view('Spages.appointment');
+})->name('appointment');
+
+
+
+//Services route
+Route::get('/service-details', function () {
+    return view('Sservices.service');
+})->name('service');
+
+Route::get('Our-Service', function () {
+    return view('Sservices.serviceone');
+})->name('serviceone');
+
+Route::get('/Our-Services', function () {
+    return view('Sservices.servicetwo');
+})->name('servicetwo');
+
+
+Route::get('our-services', function () {
+    return view('Sservices.servicethree');
+})->name('servicethree');
+
+
+
+// Elements route
+Route::get('/address-box', function () {
+    return view('addressBox');
+})->name('addressBox');
+
+Route::get('/heading', function () {
+    return view('elements.heading');
+})->name('heading');
+
+Route::get('/accordion', function () {
+    return view('accordion');
+})->name('accordion');
+
+
+Route::get('/call-to-action', function () {
+    return view('cta');
+})->name('cta');
+
+Route::get('/contact-form', function () {
+    return view('elements.contactForm');
+})->name('contactForm');
+
+Route::get('/Our-videos', function () {
+    return view('elements.video');
+})->name('video');
+
+Route::get('/Our-Company', function () {
+    return view('elements.ourcompany');
+})->name('ourcompany');
+

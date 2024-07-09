@@ -42,12 +42,11 @@
                             <ul class="links">
                                 <li><a href="#"><i class="far fa-arrow-right"></i> Forum Support</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i> Help & FAQ</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i> Contact Us</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i> Pricing & Plans</a></li>
+                                <li><a href="{{ route('contact') }}"><i class="far fa-arrow-right"></i> Contact Us</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i> Cookie Policy</a></li>
                             </ul>
                             <ul class="links margin-left-70">
-                                <li><a href="#"><i class="far fa-arrow-right"></i> About Us</a></li>
+                                <li><a href="{{ route('about') }}"><i class="far fa-arrow-right"></i> About Us</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i> My Account</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i>Our Company</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i>Service</a></li>
@@ -95,10 +94,9 @@
                                     <img src="assets/images/footer/post/01.png" alt=" _business-post">
                                 </div>
                                 <div class="post-right">
-                                    <p> <i class="fal fa-clock"></i> 15th April, 2022</p>
+                                    <p> <i class="fal fa-clock"></i> 15th April, 2024</p>
                                     <a href="blog-details.html">
-                                        <h6 class="title">Best Business Ideas For
-                                            Getting Solution</h6>
+                                        <h6 class="title">Top Educational Tips For Success</h6>
                                     </a>
                                     <a class="red-more" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
                                 </div>
@@ -110,10 +108,9 @@
                                     <img src="assets/images/footer/post/02.png" alt=" _business-post">
                                 </div>
                                 <div class="post-right">
-                                    <p> <i class="fal fa-clock"></i> 15th April, 2022</p>
+                                    <p> <i class="fal fa-clock"></i> 17th April, 2024</p>
                                     <a href="blog-details.html">
-                                        <h6 class="title">Best Business Ideas For
-                                            Getting Solution</h6>
+                                        <h6 class="title">Latest Educational Trends You Should Know</h6>
                                     </a>
                                     <a class="red-more" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
                                 </div>

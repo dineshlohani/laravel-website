@@ -87,30 +87,15 @@
                                             <ul>
                                                 <li><a href="{{ route('appointment') }}">Appointment</a></li>
                                                 <li><a href="{{ route('about') }}">About Us</a></li>
-                                                <li><a href="our-service.html">Our Services</a></li>
+                                                <li><a href="{{ route('serviceone') }}">Our Services</a></li>
                                                 <li><a href="testimonial-style-1.html">Testimonial</a></li>
-                                                <li><a href="404.html">404 Page</a></li>
+                                               
                                             </ul>
                                         </li>
-                                        <li class="menu-item">
-                                            <a class="tag" href="#">Portfolio</a>
-                                            <ul>
-                                                <li><a href="project.html">Portfolio Style 1</a></li>
-                                                <li><a href="portfolio-style-2.html">Portfolio Style 2</a></li>
-                                                <li><a href="portfolio-style-3.html">Portfolio Style 3</a></li>
-                                                <li><a href="portfolio-style-4.html">Portfolio Style 4</a></li>
-                                                <li><a href="portfolio-style-5.html">Portfolio Style 5</a></li>
-                                                <li><a href="project-details.html">Portfolio Details</a></li>
-                                            </ul>
-                                        </li>
+                                        
                                         <li class="menu-item">
                                             <a class="tag" href="#">Our Teams</a>
                                             <ul>
-                                                <li><a href="team.html">Team Style 1</a></li>
-                                                <li><a href="team-style-2.html">Team Style 2</a></li>
-                                                <li><a href="team-style-3.html">Team Style 3</a></li>
-                                                <li><a href="team-style-4.html">Team Style 4</a></li>
-                                                <li><a href="team-style-5.html">Team Style 5</a></li>
                                                 <li><a href="team-details.html">Team Details</a></li>
                                             </ul>
                                         </li>
@@ -129,32 +114,27 @@
                                     <ul class="submenu menu-link2">
                                         <li class="menu-item">
                                             <ul>
-                                                <li><a href="accordion.html">Accordion</a></li>
-                                                <li><a href="address-box.html">Address Box</a></li>
-                                                <li><a href="button.html">Button</a></li>
-                                                <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                
+                                                <li><a href="{{ route('addressBox') }}">Address Box</a></li>
+                                                
                                                 <li><a href="blog-slider.html">Blog Slider</a></li>
-                                                <li><a href="blog-quote.html">Blog Quote</a></li>
+                                                <li><a href="{{('video')}}">Video Addon</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item">
                                             <ul>
-                                                <li><a href="heading.html">Heading</a></li>
-                                                <li><a href="cta.html">Call To Action</a></li>
-                                                <li><a href="contact-form.html">Contact Form</a></li>
-                                                <li><a href="counter.html">Counter Up</a></li>
-                                                <li><a href="brand.html">Brand Logo</a></li>
-                                                <li><a href="video.html">Video Addon</a></li>
+                                                <li><a href="{{ route('heading') }}">Heading</a></li>
+                                                <li><a href="{{ route('cta') }}">Call To Action</a></li>
+                                                <li><a href="{{ route('contactForm') }}">Contact Form</a></li>
+                                                
                                             </ul>
                                         </li>
                                         <li class="menu-item">
                                             <ul>
                                                 
-                                                <li><a href="typography.html">Typography</a></li>
-                                                <li><a href="tab-addon.html">Tab Addon</a></li>
-                                                <li><a href="progress-bar.html">Progress Bar</a></li>
-                                                <li><a href="testimonial.html">Testimonial</a></li>
-                                                <li><a href="working-process.html">Working Process</a></li>
+                                                
+                                                <li><a href="{{route('ourcompany')}}">Our Company</a></li>
+                                                <li><a href="counter.html">Counter Up</a></li>
                                             </ul>
                                         </li>
                                     </ul>
