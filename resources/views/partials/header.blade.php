@@ -134,7 +134,7 @@
                                                 
                                                 
                                                 <li><a href="{{route('ourcompany')}}">Our Company</a></li>
-                                                <li><a href="counter.html">Counter Up</a></li>
+                                                <li><a href="{{ route('counter') }}">Counter Up</a></li>
                                             </ul>
                                         </li>
                                     </ul>

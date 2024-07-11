@@ -553,7 +553,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <div class="single-counter pl--10 justify-content-end four">
                         <img src="assets/images/counterup/icon/04.svg" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title happy"><span class="counter animated fadeInDownBig">28</span></h2>
+                            <h2 class="title happy"><span class="counter animated fadeInDownBig">2</span></h2>
                             <p class="disc">Happy Clients</p>
                         </div>
                     </div>

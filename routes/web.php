@@ -98,3 +98,8 @@ Route::get('/Our-Company', function () {
     return view('elements.ourcompany');
 })->name('ourcompany');
 
+Route::get('/counter-Up', function () {
+    return view('elements.counter');
+})->name('counter');
+
+

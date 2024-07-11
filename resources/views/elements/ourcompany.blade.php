@@ -29,14 +29,12 @@
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-2 mt_sm--30">
                     <div class="title-area about-company">
                         <span>About Our Company</span>
-                        <h2 class="title">Professional And Dedicated <br>
-                            Consulting Services</h2>
+                        <h2 class="title">Professional and Dedicated Consulting Services</h2>
                     </div>
                     <div class="about-company-wrapper">
                         <p class="disc">
-                            We are licensed and insured with over 14 years of experience in providing <br> United States
-                            with
-                            top-rated USA business services
+                        With over many years of experience, Shinjiru Educational Consultancy Pvt. Ltd. is licensed and insured to provide top-rated 
+                        guidance for studying and working in Japan. Trust our expertise to help you achieve your dreams.
                         </p>
                         <div class="rts-tab-style-one">
                             <div class="d-flex align-items-start contoler-company">
@@ -50,19 +48,19 @@
                                         <!-- start tab content -->
                                         <div class="rts-tab-content-one">
                                             <p class="disc">
-                                                Massa laoreet lacinia placerat eleifend cs curae imperdiet mattis
-                                                taciti, scelerisque elementum velit ullamcorper praesent enim temp
+                                            Empowering students and professionals to achieve their 
+                                            educational and career goals in Japan through exceptional guidance and support.
                                             </p>
                                             <div class="check-area">
                                                 <i class="fas fa-check-circle"></i>
                                                 <p class="disc">
-                                                    Ultricies tellus cubilia at rutrum lobortis dui quis aliquam
+                                                Personalized support to achieve educational and career goals in Japan
                                                 </p>
                                             </div>
                                             <div class="check-area">
                                                 <i class="fas fa-check-circle"></i>
                                                 <p class="disc">
-                                                    Eu nisi quam senectus odio commodo quam pellente
+                                                Prepare clients comprehensively for success in their journey to Japan
                                                 </p>
                                             </div>
                                             <a class="rts-btn btn-primary-2 color-h-black" href="#">Contact Us</a>
@@ -73,19 +71,19 @@
                                         <!-- start tab content -->
                                         <div class="rts-tab-content-one">
                                             <p class="disc">
-                                                Massa laoreet lacinia placerat eleifend cs curae imperdiet mattis
-                                                taciti, scelerisque elementum velit ullamcorper praesent enim temp
+                                            To be the leading consultancy, known for dedication, expertise, and helping
+                                             clients seamlessly transition to studying and working in Japan.
                                             </p>
                                             <div class="check-area">
                                                 <i class="fas fa-check-circle"></i>
                                                 <p class="disc">
-                                                    Ultricies tellus cubilia at rutrum lobortis dui quis aliquam
+                                                Renowned for dedication, reliability, and excellence in consultancy services
                                                 </p>
                                             </div>
                                             <div class="check-area">
                                                 <i class="fas fa-check-circle"></i>
                                                 <p class="disc">
-                                                    Eu nisi quam senectus odio commodo quam pellente
+                                                Innovate continuously to meet the evolving needs of clients
                                                 </p>
                                             </div>
                                             <a class="rts-btn btn-primary-2 color-h-black" href="#">Contact Us</a>
@@ -96,19 +94,19 @@
                                         <!-- start tab content -->
                                         <div class="rts-tab-content-one">
                                             <p class="disc">
-                                                Massa laoreet lacinia placerat eleifend cs curae imperdiet mattis
-                                                taciti, scelerisque elementum velit ullamcorper praesent enim temp
+                                            A world where studying and working in Japan is a reality for everyone,
+                                             creating successful and fulfilling futures.
                                             </p>
                                             <div class="check-area">
                                                 <i class="fas fa-check-circle"></i>
                                                 <p class="disc">
-                                                    Ultricies tellus cubilia at rutrum lobortis dui quis aliquam
+                                                Create global opportunities for studying and working in Japan
                                                 </p>
                                             </div>
                                             <div class="check-area">
                                                 <i class="fas fa-check-circle"></i>
                                                 <p class="disc">
-                                                    Eu nisi quam senectus odio commodo quam pellente
+                                                Foster successful and fulfilling futures for all our clients
                                                 </p>
                                             </div>
                                             <a class="rts-btn btn-primary-2 color-h-black" href="#">Contact Us</a>
