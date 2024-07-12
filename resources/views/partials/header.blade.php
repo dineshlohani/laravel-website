@@ -9,9 +9,10 @@
                         <div class="mail">
                             <a href="mailto:webmaster@example.com"><i class="fal fa-envelope"></i> shinjirueducational@gmail.com</a>
                         </div>
-                        <div class="working-time">
-                            <p><i class="fal fa-clock"></i> Working: 6.00am - 5.00pm</p>
+                        <div class="working-time" id="working-time">
+                            <p><i class="fal fa-clock"></i> Working: 6.00am - 5.00pm &nbsp;&nbsp; </p>
                         </div>
+                        <div id="status">  </div> <!-- New div for the status -->
                     </div>
                 </div>
                 <div class="col-lg-6 d-xl-block d-none">
@@ -42,7 +43,7 @@
                         </a>
                     </div>
                 </div>
-                <div class=" col-xl-9 col-lg-8 col-md-8 col-sm-8 col-8">
+                <div class="col-xl-9 col-lg-8 col-md-8 col-sm-8 col-8">
                     <div class="main-header">
                         <nav class="nav-main mainmenu-nav d-none d-xl-block">
                             <ul class="mainmenu">
@@ -53,14 +54,14 @@
                                             <a class="tag" href="#">Multipages</a>
                                             <ul>
                                                 <li><a href="/">Main Home</a></li>
-                                                <li><a href="index-two.html">Consulting Home</a></li>
+                                                
                                             </ul>
                                         </li>
                                         <li class="menu-item">
                                             <a class="tag" href="#">Onepages</a>
                                             <ul>
                                                 <li><a href="{{ route('home') }}">Main Home</a></li>
-                                                <li><a href="onepage-two.html">Consulting Home</a></li> 
+                                               
                                             </ul>
                                         </li>
                                     </ul>
@@ -88,15 +89,13 @@
                                                 <li><a href="{{ route('appointment') }}">Appointment</a></li>
                                                 <li><a href="{{ route('about') }}">About Us</a></li>
                                                 <li><a href="{{ route('serviceone') }}">Our Services</a></li>
-                                                <li><a href="testimonial-style-1.html">Testimonial</a></li>
-                                               
+                                                <li><a href="{{route('testimonial')}}">Testimonial</a></li>
                                             </ul>
                                         </li>
-                                        
                                         <li class="menu-item">
                                             <a class="tag" href="#">Our Teams</a>
                                             <ul>
-                                                <li><a href="team-details.html">Team Details</a></li>
+                                                <li><a href="{{route('team')}}">Team Details</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -114,11 +113,9 @@
                                     <ul class="submenu menu-link2">
                                         <li class="menu-item">
                                             <ul>
-                                                
                                                 <li><a href="{{ route('addressBox') }}">Address Box</a></li>
-                                                
-                                                <li><a href="blog-slider.html">Blog Slider</a></li>
-                                                <li><a href="{{('video')}}">Video Addon</a></li>
+                                                <li><a href="{{route('blogSlider')}}">Blog Slider</a></li>
+                                                <li><a href="{{route('video')}}">Video Addon</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item">
@@ -126,13 +123,10 @@
                                                 <li><a href="{{ route('heading') }}">Heading</a></li>
                                                 <li><a href="{{ route('cta') }}">Call To Action</a></li>
                                                 <li><a href="{{ route('contactForm') }}">Contact Form</a></li>
-                                                
                                             </ul>
                                         </li>
                                         <li class="menu-item">
                                             <ul>
-                                                
-                                                
                                                 <li><a href="{{route('ourcompany')}}">Our Company</a></li>
                                                 <li><a href="{{ route('counter') }}">Counter Up</a></li>
                                             </ul>
@@ -143,7 +137,8 @@
                             </ul>
                         </nav>
                         <div class="button-area">
-                            <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button>
+                        <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button>
+                        
                             <a href="#" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Get Quote</a>
                             <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
                                 <img class="menu-dark" src="assets/images/icon/menu.png" alt="Menu-icon">
@@ -156,3 +151,27 @@
         </div>
     </div>
 </header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var today = new Date();
+        var day = today.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+        var hour = today.getHours(); // Current hour (0-23)
+
+        var workingTimeDiv = document.querySelector('.working-time p');
+        var statusText = document.createElement('span');
+
+        if (day === 6 || hour < 6 || hour >= 17) { // If today is Saturday or before 6:00 AM or after 5:00 PM
+            statusText.textContent = ' Office Closed';
+            statusText.style.color = 'black';
+        } else {
+            statusText.textContent = ' Office Open';
+            statusText.style.color = 'yellow';
+        }
+
+        workingTimeDiv.appendChild(statusText);
+    });
+
+    
+</script>
+

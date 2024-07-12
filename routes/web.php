@@ -46,6 +46,16 @@ Route::get('/take-appointment', function () {
     return view('Spages.appointment');
 })->name('appointment');
 
+Route::get('/Our-testimonial', function () {
+    return view('Spages.testimonial');
+})->name('testimonial');
+
+Route::get('/Our-Team', function () {
+    return view('Spages.team');
+})->name('team');
+
+
+
 
 
 //Services route
@@ -83,7 +93,7 @@ Route::get('/accordion', function () {
 
 
 Route::get('/call-to-action', function () {
-    return view('cta');
+    return view('elements.cta');
 })->name('cta');
 
 Route::get('/contact-form', function () {
@@ -93,6 +103,10 @@ Route::get('/contact-form', function () {
 Route::get('/Our-videos', function () {
     return view('elements.video');
 })->name('video');
+
+Route::get('/Blog-Slider', function () {
+    return view('elements.blogSlider');
+})->name('blogSlider');
 
 Route::get('/Our-Company', function () {
     return view('elements.ourcompany');

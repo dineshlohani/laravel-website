@@ -26,7 +26,6 @@
     <div id="anywhere-home"></div>
     <!-- ENd Header Area -->
 
-    <!-- banner blank space area -->
     <div class="rts-banner-area rts-banner-one">
     <div class="swiper mySwiper banner-one">
         <div class="swiper-wrapper">
@@ -947,7 +946,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                      commitment to guiding students towards successful academic pursuits and career 
                                      advancements in Japan. Our personalized approach,
                                      coupled with extensive expertise and excellent client feedback, 
-                                     distinguishes us as a leading consultancy in the field."
+                                     distinguishes us as a leading consultancy in the field"
                                     </p>
                                     <div class="testimonial-bottom-one">
                                         <div class="thumbnail">
@@ -969,7 +968,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                     and working in Japan. With expert guidance and comprehensive support, we ensure a
                                      seamless transition to academic success and career advancement in Japan.
                                      Our personalized approach and dedication to excellence have earned us
-                                      positive reviews from students and professionals alike."
+                                    positive reviews from students and professionals alike"
                                     </p>
                                     <div class="testimonial-bottom-one">
                                         <div class="thumbnail">
@@ -1005,7 +1004,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
     <!-- start client feed back section End -->
 
     <!-- blog area start -->
-    <div class="rts-blog-area rts-section-gap bg-secondary" id="blog">
+    <div class="rts-blog-area rts-section-gap bg-secondary">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1023,16 +1022,16 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                 <div class="thumbnail">
                                     <img src="assets/images/blog/01.jpg" alt="business_Blog">
                                     <div class="blog-badge">
-                                        <span>25.05.2023</span>
+                                        <span>25.05.2024</span>
                                     </div>
                                 </div>
                                 <div class="blog-content">
-                                    <p><span>Business Solution </span>/ by David Dolean</p>
-                                    <a href="blog-details.html">
-                                        <h5 class="title">The quick settle tips of the new
-                                            ages exist </h5>
+                                    <p><span>Educational Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Effective Strategies for Students to Settle Abroad </h5>
                                     </a>
-                                    <a class="rts-read-more btn-primary" href="blog-details.html"><i class="far fa-arrow-right"></i>Read
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
                                         More</a>
                                 </div>
                             </div>
@@ -1042,16 +1041,16 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                 <div class="thumbnail">
                                     <img src="assets/images/blog/02.jpg" alt="business_Blog">
                                     <div class="blog-badge">
-                                        <span>25.05.2023</span>
+                                        <span>25.06.2024</span>
                                     </div>
                                 </div>
                                 <div class="blog-content">
-                                    <p><span>Business Solution </span>/ by David Dolean</p>
-                                    <a href="blog-details.html">
-                                        <h5 class="title">Old generation settle tips of the new
-                                            ages upps ! </h5>
+                                    <p><span>Education Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Quick Tips for Navigating the New Education Landscape</h5>
                                     </a>
-                                    <a class="rts-read-more btn-primary" href="blog-details.html"><i class="far fa-arrow-right"></i>Read
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
                                         More</a>
                                 </div>
                             </div>
@@ -1061,16 +1060,56 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                 <div class="thumbnail">
                                     <img src="assets/images/blog/03.jpg" alt="business_Blog">
                                     <div class="blog-badge">
-                                        <span>25.05.2023</span>
+                                        <span>25.05.2024</span>
                                     </div>
                                 </div>
                                 <div class="blog-content">
-                                    <p><span>Business Solution </span>/ by David Dolean</p>
-                                    <a href="blog-details.html">
-                                        <h5 class="title">Monkey Form settle tips of the new
-                                            ages end </h5>
+                                    <p><span>Educational Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Bridging the Gap: Traditional Education Meets Modern Technology </h5>
                                     </a>
-                                    <a class="rts-read-more btn-primary" href="blog-details.html"><i class="far fa-arrow-right"></i>Read
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="single-blog-one-wrapper">
+                                <div class="thumbnail">
+                                    <img src="assets/images/blog/03.jpg" alt="business_Blog">
+                                    <div class="blog-badge">
+                                        <span>25.05.2024</span>
+                                    </div>
+                                </div>
+                                <div class="blog-content">
+                                    <p><span>Educational Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Success Stories: How Our Consultancy Helped Students Achieve Their Dreams </h5>
+                                    </a>
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="single-blog-one-wrapper">
+                                <div class="thumbnail">
+                                    <img src="assets/images/blog/02.jpg" alt="business_Blog">
+                                    <div class="blog-badge">
+                                        <span>25.06.2024</span>
+                                    </div>
+                                </div>
+                                <div class="blog-content">
+                                    <p><span>Education Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Navigating Visa Processes: A Comprehensive Guide for Students</h5>
+                                    </a>
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
                                         More</a>
                                 </div>
                             </div>
@@ -1156,12 +1195,10 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d226029.2909363078!2d85.13927092454878!3d27.726310744203253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1900633612e7%3A0x34e0941a570c50be!2sShinjiru%20Educational%20Consultancy!5e0!3m2!1sen!2snp!4v1711093706556!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-
         </div>
     </div>
 
 </body>
-
 
 </html>
 @endsection

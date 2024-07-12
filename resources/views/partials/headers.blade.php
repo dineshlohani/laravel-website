@@ -4,16 +4,17 @@
         <div class="header-top header-top-one bg-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 d-xl-block d-none">
-                        <div class="left">
-                            <div class="mail">
-                                <a href="mailto:webmaster@example.com"><i class="fal fa-envelope"></i> info@finbiz.com</a>
-                            </div>
-                            <div class="working-time">
-                                <p><i class="fal fa-clock"></i> Working: 6.00am - 5.00pm</p>
-                            </div>
+                <div class="col-lg-6 d-xl-block d-none">
+                    <div class="left">
+                        <div class="mail">
+                            <a href="mailto:webmaster@example.com"><i class="fal fa-envelope"></i> shinjirueducational@gmail.com</a>
                         </div>
+                        <div class="working-time" id="working-time">
+                            <p><i class="fal fa-clock"></i> Working: 6.00am - 5.00pm &nbsp;&nbsp; </p>
+                        </div>
+                        <div id="status">  </div> <!-- New div for the status -->
                     </div>
+                </div>
                     <div class="col-lg-6 d-xl-block d-none">
                         <div class="right">
                             <ul class="top-nav">
@@ -76,3 +77,26 @@
             </div>
         </div>
     </header>
+    
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var today = new Date();
+        var day = today.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+        var hour = today.getHours(); // Current hour (0-23)
+
+        var workingTimeDiv = document.querySelector('.working-time p');
+        var statusText = document.createElement('span');
+
+        if (day === 6 || hour < 6 || hour >= 17) { // If today is Saturday or before 6:00 AM or after 5:00 PM
+            statusText.textContent = ' Office Closed';
+            statusText.style.color = 'black';
+        } else {
+            statusText.textContent = ' Office Open';
+            statusText.style.color = 'yellow';
+        }
+
+        workingTimeDiv.appendChild(statusText);
+    });
+
+    
+</script>

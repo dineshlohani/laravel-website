@@ -1007,75 +1007,113 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
 
 <!-- blog area start -->
 <div class="rts-blog-area rts-section-gap bg-secondary">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="title-area text-center">
-                    <span>Blog Posts</span>
-                    <h2 class="title">News & Updates</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-area text-center">
+                        <span>Blog Posts</span>
+                        <h2 class="title">News & Updates</h2>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="g-5 mt--20">
-            <div class="swiper mySwiperh1_blog">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="single-blog-one-wrapper">
-                            <div class="thumbnail">
-                                <img src="assets/images/blog/01.jpg" alt="business_Blog">
-                                <div class="blog-badge">
-                                    <span>25.05.2023</span>
+            <div class="g-5 mt--20">
+                <div class="swiper mySwiperh1_blog">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="single-blog-one-wrapper">
+                                <div class="thumbnail">
+                                    <img src="assets/images/blog/01.jpg" alt="business_Blog">
+                                    <div class="blog-badge">
+                                        <span>25.05.2024</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="blog-content">
-                                <p><span>Business Solution </span>/ by David Dolean</p>
-                                <a href="blog-details.html">
-                                    <h5 class="title">The quick settle tips of the new
-                                        ages exist </h5>
-                                </a>
-                                <a class="rts-read-more btn-primary" href="blog-details.html"><i
-                                        class="far fa-arrow-right"></i>Read
-                                    More</a>
+                                <div class="blog-content">
+                                    <p><span>Educational Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Effective Strategies for Students to Settle Abroad </h5>
+                                    </a>
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
+                                        More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="single-blog-one-wrapper">
-                            <div class="thumbnail">
-                                <img src="assets/images/blog/02.jpg" alt="business_Blog">
-                                <div class="blog-badge">
-                                    <span>25.05.2023</span>
+                        <div class="swiper-slide">
+                            <div class="single-blog-one-wrapper">
+                                <div class="thumbnail">
+                                    <img src="assets/images/blog/02.jpg" alt="business_Blog">
+                                    <div class="blog-badge">
+                                        <span>25.06.2024</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="blog-content">
-                                <p><span>Business Solution </span>/ by David Dolean</p>
-                                <a href="blog-details.html">
-                                    <h5 class="title">Old generation settle tips of the new
-                                        ages upps ! </h5>
-                                </a>
-                                <a class="rts-read-more btn-primary" href="blog-details.html"><i
-                                        class="far fa-arrow-right"></i>Read
-                                    More</a>
+                                <div class="blog-content">
+                                    <p><span>Education Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Quick Tips for Navigating the New Education Landscape</h5>
+                                    </a>
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
+                                        More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="single-blog-one-wrapper">
-                            <div class="thumbnail">
-                                <img src="assets/images/blog/03.jpg" alt="business_Blog">
-                                <div class="blog-badge">
-                                    <span>25.05.2023</span>
+                        <div class="swiper-slide">
+                            <div class="single-blog-one-wrapper">
+                                <div class="thumbnail">
+                                    <img src="assets/images/blog/03.jpg" alt="business_Blog">
+                                    <div class="blog-badge">
+                                        <span>25.05.2024</span>
+                                    </div>
+                                </div>
+                                <div class="blog-content">
+                                    <p><span>Educational Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Bridging the Gap: Traditional Education Meets Modern Technology </h5>
+                                    </a>
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
+                                        More</a>
                                 </div>
                             </div>
-                            <div class="blog-content">
-                                <p><span>Business Solution </span>/ by David Dolean</p>
-                                <a href="blog-details.html">
-                                    <h5 class="title">Monkey Form settle tips of the new
-                                        ages end </h5>
-                                </a>
-                                <a class="rts-read-more btn-primary" href="blog-details.html"><i
-                                        class="far fa-arrow-right"></i>Read
-                                    More</a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="single-blog-one-wrapper">
+                                <div class="thumbnail">
+                                    <img src="assets/images/blog/03.jpg" alt="business_Blog">
+                                    <div class="blog-badge">
+                                        <span>25.05.2024</span>
+                                    </div>
+                                </div>
+                                <div class="blog-content">
+                                    <p><span>Educational Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Success Stories: How Our Consultancy Helped Students Achieve Their Dreams </h5>
+                                    </a>
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="single-blog-one-wrapper">
+                                <div class="thumbnail">
+                                    <img src="assets/images/blog/02.jpg" alt="business_Blog">
+                                    <div class="blog-badge">
+                                        <span>25.06.2024</span>
+                                    </div>
+                                </div>
+                                <div class="blog-content">
+                                    <p><span>Education Solution </span>/ by Dinesh Lohani</p>
+                                    <a href="#">
+                                        <h5 class="title">Navigating Visa Processes: A Comprehensive Guide for Students</h5>
+                                    </a>
+                                    <a class="rts-read-more btn-primary" href="#"><i
+                                            class="far fa-arrow-right"></i>Read
+                                        More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1083,7 +1121,6 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
             </div>
         </div>
     </div>
-</div>
 <!-- blog area end -->
 
 <!-- contact area start -->
