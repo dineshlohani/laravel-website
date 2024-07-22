@@ -264,7 +264,7 @@
                                     </div>
                                     <div class="review-body">
                                         <p class="disc">
-                                        Choosing Shinjiru Educational Consultancy was the best decision for my academic career. The instructors are incredibly knowledgeable, 
+                                        "Choosing Shinjiru Educational Consultancy was the best decision for my academic career. The instructors are incredibly knowledgeable, 
                                         and the curriculum is perfectly tailored to help students succeed in Japan. I am grateful for the wonderful learning experience”
                                         </p>
                                         <div class="body-end">

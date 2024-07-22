@@ -2,10 +2,8 @@
     <button class="close-icon-menu"><i class="far fa-times"></i></button>
     <!-- inner menu area desktop start -->
     <div class="rts-sidebar-menu-desktop">
-        <a class="logo-1" href="index-2.html"><img class="logo" src="assets/images/logo/logo.png" alt="logo"></a>
-        <a class="logo-2" href="index-2.html"><img class="logo" src="assets/images/logo/logo-4.svg" alt="logo"></a>
-        <a class="logo-3" href="index-2.html"><img class="logo" src="assets/images/logo/logo-3.svg" alt="logo"></a>
-        <a class="logo-4" href="index-2.html"><img class="logo" src="assets/images/logo/logo-5.svg" alt="logo"></a>
+        <a class="logo-1" href="#"><img class="logo" src="assets/images/logo/logo.png" alt="logo"></a>
+      
         <div class="body d-none d-xl-block">
             <p class="disc">
             We offer comprehensive solutions for your study abroad endeavors.

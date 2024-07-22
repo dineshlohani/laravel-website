@@ -31,8 +31,8 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="team-single-one-start">
                         <div class="team-image-area">
-                            <a href="team-details.html">
-                                <img src="assets/images/team/tm/06.jpg" alt="Business_Team_single">
+                            <a href="#.html">
+                                <img src="assets/images/team/tm/01.jpeg" alt="Business_Team_single">
                                 <div class="team-social">
                                     <div class="main">
                                         <i class="fal fa-plus"></i>
@@ -46,7 +46,7 @@
                             </a>
                         </div>
                         <div class="single-details">
-                            <a href="team-details.html">
+                            <a href="#.html">
                                 <h5 class="title">Bishal Dhamala</h5>
                             </a>
                             <p>CEO</p>
@@ -58,22 +58,22 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="team-single-one-start">
                         <div class="team-image-area">
-                            <a href="team-details.html">
-                                <img src="assets/images/team/tm/07.jpg" alt="Business_Team_single">
+                            <a href="#.html">
+                                <img src="assets/images/team/tm/02.png" alt="Business_Team_single">
                                 <div class="team-social">
                                     <div class="main">
                                         <i class="fal fa-plus"></i>
                                     </div>
                                     <div class="team-social-one">
-                                        <i class="fab fa-youtube"></i>
-                                        <i class="fab fa-twitter"></i>
-                                        <i class="fab fa-instagram"></i>
+                                    <a href="https://www.linkedin.com/in/shinjiru-education-04ab612bb/"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://www.linkedin.com/in/shinjiru-education-04ab612bb/"> <i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/shinjiru-education-04ab612bb/"><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="single-details">
-                            <a href="team-details.html">
+                            <a href="#.html">
                                 <h5 class="title">Dinesh Lohani</h5>
                             </a>
                             <p>Co-Founder</p>
@@ -85,8 +85,8 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="team-single-one-start">
                         <div class="team-image-area">
-                            <a href="team-details.html">
-                                <img src="assets/images/team/tm/08.jpg" alt="Business_Team_single">
+                            <a href="#.html">
+                                <img src="assets/images/team/tm/04.jpg" alt="Business_Team_single">
                                 <div class="team-social">
                                     <div class="main">
                                         <i class="fal fa-plus"></i>
@@ -100,7 +100,7 @@
                             </a>
                         </div>
                         <div class="single-details">
-                            <a href="team-details.html">
+                            <a href="#.html">
                                 <h5 class="title">Indira Lohani</h5>
                             </a>
                             <p>Consultant</p>
@@ -112,8 +112,8 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="team-single-one-start">
                         <div class="team-image-area">
-                            <a href="team-details.html">
-                                <img src="assets/images/team/tm/09.jpg" alt="Business_Team_single">
+                            <a href="#.html">
+                                <img src="assets/images/team/tm/03.jpeg" alt="Business_Team_single">
                                 <div class="team-social">
                                     <div class="main">
                                         <i class="fal fa-plus"></i>
@@ -127,7 +127,7 @@
                             </a>
                         </div>
                         <div class="single-details">
-                            <a href="team-details.html">
+                            <a href="#.html">
                                 <h5 class="title">Prestige Burlakoti </h5>
                             </a>
                             <p> Manager</p>
@@ -139,8 +139,8 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="team-single-one-start">
                         <div class="team-image-area">
-                            <a href="team-details.html">
-                                <img src="assets/images/team/tm/10.jpg" alt="Business_Team_single">
+                            <a href="#.html">
+                                <img src="assets/images/team/tm/05.jpeg" alt="Business_Team_single">
                                 <div class="team-social">
                                     <div class="main">
                                         <i class="fal fa-plus"></i>
@@ -154,7 +154,7 @@
                             </a>
                         </div>
                         <div class="single-details">
-                            <a href="team-details.html">
+                            <a href="#.html">
                                 <h5 class="title">Bikash Dhamala</h5>
                             </a>
                             <p>Finance Manager</p>
@@ -166,8 +166,8 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="team-single-one-start">
                         <div class="team-image-area">
-                            <a href="team-details.html">
-                                <img src="assets/images/team/tm/11.jpg" alt="Business_Team_single">
+                            <a href="#.html">
+                                <img src="assets/images/team/tm/man.jpg" alt="Business_Team_single">
                                 <div class="team-social">
                                     <div class="main">
                                         <i class="fal fa-plus"></i>
@@ -181,7 +181,7 @@
                             </a>
                         </div>
                         <div class="single-details">
-                            <a href="team-details.html">
+                            <a href="#.html">
                                 <h5 class="title">Amelia Clover</h5>
                             </a>
                             <p>Language Teacher</p>
@@ -193,8 +193,8 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="team-single-one-start">
                         <div class="team-image-area">
-                            <a href="team-details.html">
-                                <img src="assets/images/team/tm/12.jpg" alt="Business_Team_single">
+                            <a href="#.html">
+                                <img src="assets/images/team/tm/man.jpg" alt="Business_Team_single">
                                 <div class="team-social">
                                     <div class="main">
                                         <i class="fal fa-plus"></i>
@@ -208,7 +208,7 @@
                             </a>
                         </div>
                         <div class="single-details">
-                            <a href="team-details.html">
+                            <a href="#.html">
                                 <h5 class="title">Beckett Hayden</h5>
                             </a>
                             <p>Language Teacher</p>
@@ -220,8 +220,8 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="team-single-one-start">
                         <div class="team-image-area">
-                            <a href="team-details.html">
-                                <img src="assets/images/team/tm/13.jpg" alt="Business_Team_single">
+                            <a href="#.html">
+                                <img src="assets/images/team/tm/man.jpg" alt="Business_Team_single">
                                 <div class="team-social">
                                     <div class="main">
                                         <i class="fal fa-plus"></i>
@@ -235,7 +235,7 @@
                             </a>
                         </div>
                         <div class="single-details">
-                            <a href="team-details.html">
+                            <a href="#.html">
                                 <h5 class="title">Julian Wyat</h5>
                             </a>
                             <p>Finance Manager</p>

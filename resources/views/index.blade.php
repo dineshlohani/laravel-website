@@ -521,7 +521,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/counterup/icon/01.svg" alt="Business_counter">
                         <div class="counter-details">
                             <h2 class="title"><span class="counter animated fadeInDownBig">858</span></h2>
-                            <p class="disc">Successful Projects</p>
+                            <p class="disc">SUCCESSFUL STUDENTS PLACED</p>
                         </div>
                     </div>
                 </div>
@@ -531,8 +531,8 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <div class="single-counter pl--10 justify-content-center two pl--30">
                         <img src="assets/images/counterup/icon/02.svg" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">650</span></h2>
-                            <p class="disc">Media Activities</p>
+                            <h2 class="title"><span class="counter animated fadeInDownBig">20</span></h2>
+                            <p class="disc">PARTNER SCHOOL</p>
                         </div>
                     </div>
                 </div>
@@ -542,8 +542,8 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <div class="single-counter pl--10 justify-content-center three pl--50">
                         <img src="assets/images/counterup/icon/03.svg" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title"><span class="counter animated fadeInDownBig">567</span></h2>
-                            <p class="disc">Skilled Experts</p>
+                            <h2 class="title"><span class="counter animated fadeInDownBig">5</span></h2>
+                            <p class="disc">SKILLED COUNSELORS</p>
                         </div>
                     </div>
                 </div>
@@ -553,8 +553,8 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <div class="single-counter pl--10 justify-content-end four">
                         <img src="assets/images/counterup/icon/04.svg" alt="Business_counter">
                         <div class="counter-details">
-                            <h2 class="title happy"><span class="counter animated fadeInDownBig">2</span></h2>
-                            <p class="disc">Happy Clients</p>
+                            <h2 class="title happy"><span class="counter animated fadeInDownBig">1</span></h2>
+                            <p class="disc">SATISFIED Students</p>
                         </div>
                     </div>
                 </div>
@@ -731,7 +731,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="team-details.html">
-                                    <img src="assets/images/team/tm/01.jpg" alt="Business_Team_single">
+                                    <img src="assets/images/team/tm/01.jpeg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -756,7 +756,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="team-details.html">
-                                    <img src="assets/images/team/tm/02.jpg" alt="Business_Team_single">
+                                    <img src="assets/images/team/tm/02.png" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -781,7 +781,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="team-details.html">
-                                    <img src="assets/images/team/tm/03.jpg" alt="Business_Team_single">
+                                    <img src="assets/images/team/tm/03.jpeg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -831,7 +831,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="team-details.html">
-                                    <img src="assets/images/team/tm/04.jpg" alt="Business_Team_single">
+                                    <img src="assets/images/team/tm/05.jpeg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -930,11 +930,11 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                     </p>
                                     <div class="testimonial-bottom-one">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/02.png" alt="business-testimonials">
+                                            <!-- <img src="assets/images/testimonials/02.png" alt="business-testimonials"> -->
                                         </div>
                                         <div class="details">
                                             <a href="#">
-                                                <h5 class="title">Geevan Thapa</h5>
+                                                <h5 class="title">Dipak Palli Magar</h5>
                                             </a>
                                             <span>Student</span>
                                         </div>
@@ -952,13 +952,13 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                     </p>
                                     <div class="testimonial-bottom-one">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/02.png" alt="business-testimonials">
+                                            <!-- <img src="assets/images/testimonials/02.png" alt="business-testimonials"> -->
                                         </div>
                                         <div class="details">
                                             <a href="#">
-                                                <h5 class="title">David Smith</h5>
+                                                <h5 class="title">David Thapa</h5>
                                             </a>
-                                            <span>JHKL Owner</span>
+                                            <span>Student</span>
                                         </div>
                                     </div>
                                 </div>
@@ -974,13 +974,13 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                     </p>
                                     <div class="testimonial-bottom-one">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/02.png" alt="business-testimonials">
+                                            <!-- <img src="assets/images/testimonials/02.jpeg" alt="business-testimonials"> -->
                                         </div>
                                         <div class="details">
                                             <a href="#">
-                                                <h5 class="title">Dinesh Lohani</h5>
+                                                <h5 class="title">Pushpa Pandey</h5>
                                             </a>
-                                            <span>JHKL Owner</span>
+                                            <span>Student</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1141,12 +1141,12 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <h2 class="title">Request a free quote</h2>
                     </div>
                     <div id="form-messages"></div>
-                    <form id="contact-form" action="https://reactheme.com/products/html/ /mailer.php" method="post">
+                    <form id="contact-form" action="#" method="post">
                         <div class="name-email">
                             <input type="text" placeholder="Your Name" name="name" required>
                             <input type="email" placeholder="Email Address" name="email" required>
                         </div>
-                        <input type="text" placeholder="Business Topic" name="subject">
+                        <input type="text" placeholder="Topic" name="subject">
                         <textarea placeholder="Type Your Message" name="message"></textarea>
                         <button type="submit" class="rts-btn btn-primary">Submit Message</button>
                     </form>

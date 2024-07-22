@@ -41,18 +41,18 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <!-- single service start -->
                     <div class="rts-single-service-h2 inner">
-                        <a href="service-details.html" class="thumbnail">
+                        <a href="#" class="thumbnail">
                             <img src="assets/images/service/10.jpg" alt="Service_image">
                         </a>
                         <div class="body">
-                            <a href="service-details.html">
+                            <a href="#">
                                 <h5 class="title">Study Abroad Consultation</h5>
                             </a>
                             <p class="disc">
                             We provide expert guidance and support for students aspiring to study abroad,
                              ensuring they choose the right courses and universities to match their career goals.
                             </p>
-                            <a href="service-details.html" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
@@ -60,18 +60,18 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <!-- single service start -->
                     <div class="rts-single-service-h2 inner">
-                        <a href="service-details.html" class="thumbnail">
+                        <a href="#" class="thumbnail">
                             <img src="assets/images/service/11.jpg" alt="Service_image">
                         </a>
                         <div class="body">
-                            <a href="service-details.html">
+                            <a href="#">
                                 <h5 class="title">Best Career Counseling</h5>
                             </a>
                             <p class="disc">
                             Our experts provide tailored counseling, helping students identify strengths and interests, and guiding them towards
                              the most suitable and rewarding career paths for their best future.
                             </p>
-                            <a href="service-details.html" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
@@ -79,18 +79,18 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <!-- single service start -->
                     <div class="rts-single-service-h2 inner">
-                        <a href="service-details.html" class="thumbnail">
+                        <a href="#" class="thumbnail">
                             <img src="assets/images/service/12.jpg" alt="Service_image">
                         </a>
                         <div class="body">
-                            <a href="service-details.html">
+                            <a href="#">
                                 <h5 class="title">School Application Assistance</h5>
                             </a>
                             <p class="disc">
                             We assist students in completing their university applications, ensuring all necessary
                              documents are in order and helping them craft compelling personal statements.
                             </p>
-                            <a href="service-details.html" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
@@ -98,18 +98,18 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <!-- single service start -->
                     <div class="rts-single-service-h2 inner">
-                        <a href="service-details.html" class="thumbnail">
+                        <a href="#" class="thumbnail">
                             <img src="assets/images/service/13.jpg" alt="Service_image">
                         </a>
                         <div class="body">
-                            <a href="service-details.html">
+                            <a href="#">
                                 <h5 class="title">Visa Processing Support</h5>
                             </a>
                             <p class="disc">
                             Our team provides comprehensive support for visa applications,
                              ensuring students meet all requirements and navigate the process smoothly.
                             </p>
-                            <a href="service-details.html" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->

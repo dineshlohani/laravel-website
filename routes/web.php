@@ -79,16 +79,19 @@ Route::get('our-services', function () {
 
 
 // Elements route
-Route::get('/address-box', function () {
-    return view('addressBox');
-})->name('addressBox');
+
 
 Route::get('/heading', function () {
     return view('elements.heading');
 })->name('heading');
 
+Route::get('/address', function () {
+    return view('elements.address');
+})->name('address');
+
+
 Route::get('/accordion', function () {
-    return view('accordion');
+    return view('elements.accordion');
 })->name('accordion');
 
 
@@ -108,6 +111,11 @@ Route::get('/Blog-Slider', function () {
     return view('elements.blogSlider');
 })->name('blogSlider');
 
+
+Route::get('/Blog-Slider', function () {
+    return view('elements.blogSlider');
+})->name('blogSlider');
+
 Route::get('/Our-Company', function () {
     return view('elements.ourcompany');
 })->name('ourcompany');
@@ -116,4 +124,15 @@ Route::get('/counter-Up', function () {
     return view('elements.counter');
 })->name('counter');
 
+//blog
+Route::get('/blog-list', function () {
+    return view('blog.blogList');
+})->name('blogList');
 
+Route::get('/blog-grid', function () {
+    return view('blog.blogGrid');
+})->name('blogGrid');
+
+Route::get('/blog-details', function () {
+    return view('blog.blogDetails');
+})->name('blogDetails');

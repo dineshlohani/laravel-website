@@ -729,7 +729,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="team-details.html">
-                                    <img src="assets/images/team/tm/01.jpg" alt="Business_Team_single">
+                                    <img src="assets/images/team/tm/01.jpeg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -754,7 +754,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="team-details.html">
-                                    <img src="assets/images/team/tm/02.jpg" alt="Business_Team_single">
+                                    <img src="assets/images/team/tm/02.png" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -779,7 +779,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="team-details.html">
-                                    <img src="assets/images/team/tm/03.jpg" alt="Business_Team_single">
+                                    <img src="assets/images/team/tm/03.jpeg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -829,7 +829,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <div class="team-single-one-start">
                             <div class="team-image-area">
                                 <a href="team-details.html">
-                                    <img src="assets/images/team/tm/04.jpg" alt="Business_Team_single">
+                                    <img src="assets/images/team/tm/05.jpeg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
                                             <i class="fal fa-plus"></i>
@@ -1143,7 +1143,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                 <input type="text" placeholder="Your Name" required>
                                 <input type="email" placeholder="Email Address" required>
                             </div>
-                            <input type="text" placeholder="Business Topic">
+                            <input type="text" placeholder="Topic">
                             <textarea placeholder="Type Your Message"></textarea>
                             <button href="#" class="rts-btn btn-primary">Submit Message</button>
                         </form>

@@ -44,7 +44,7 @@
                         <img src="assets/images/service/icon/01.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Educational / Working Planning</h5>
                         </a>
                         <p class="disc">
@@ -53,7 +53,7 @@
                         our expert advisors help you navigate the best pathways to achieve your 
                         goals, ensuring a successful and fulfilling experience.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -67,7 +67,7 @@
                         <img src="assets/images/service/icon/visa.png" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Visa Process</h5>
                         </a>
                         <p class="disc">
@@ -75,7 +75,7 @@
                          that all necessary steps are completed accurately and efficiently. 
                         Trust us to make your journey abroad stress-free.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -89,14 +89,14 @@
                         <img src="assets/images/service/icon/document.png" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Documentation Guidance</h5>
                         </a>
                         <p class="disc">
                         We offer expert documentation guidance to ensure your application process is smooth and hassle-free. From visa applications 
                         to school enrollment paperwork, our experienced team is here to assist you every step of the way.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -110,7 +110,7 @@
                         <img src="assets/images/service/icon/04.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Language Classes</h5>
                         </a>
                         <p class="disc">
@@ -119,7 +119,7 @@ At Shinjiru Educational Consultancy, we offer high-quality language courses taug
 backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a peaceful, friendly,
  and well-equipped environment. Join us to master Japanese with expert guidance!
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -133,7 +133,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/05.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Interview Preparation Class</h5>
                         </a>
                         <p class="disc">
@@ -141,7 +141,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         and confidence needed to excel in interviews. Through personalized coaching 
                         and mock interviews, we help you master effective communication and presentation techniques to make a lasting impression.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -155,7 +155,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/06.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Career Counselling</h5>
                         </a>
                         <p class="disc">
@@ -163,7 +163,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                          help you navigate your professional journey. Whether you're exploring career options, seeking job opportunities,
                          or planning your future, our experienced advisors offer expert advice and support tailored to your goals.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -175,14 +175,14 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/test.webp" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Test Preparation </h5>
                         </a>
                         <p class="disc">
                         Get ready for language exams with our help! Our teachers will show you everything
                          you need to know for the test. We make studying easy with personalized lessons and lots of helpful materials.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -196,7 +196,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/education.webp" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Educational Pathway Planning</h5>
                         </a>
                         <p class="disc">
@@ -204,7 +204,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                          effective course for your academic journey. We provide tailored advice and support to ensure you 
                         choose the right programs and institutions to achieve your educational and career objectives.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -218,7 +218,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/post.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Post Arrival Support</h5>
                         </a>
                         <p class="disc">
@@ -226,7 +226,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         We assist with everything from settling in, navigating local customs, to finding accommodation and
                          accessing essential services, providing you with peace of mind as you embark on your new journey.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -245,6 +245,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                 </div>
             </div>
         </div>
+</div>
 
 
 @endsection

@@ -129,9 +129,9 @@
                             </div>
                             <div class="name-email">
                                 <input type="text" placeholder="Phone Number">
-                                <input type="email" placeholder="Company Website">
+                                <input type="Text" placeholder="Address">
                             </div>
-                            <input type="text" placeholder="Business Topic">
+                            <input type="text" placeholder="Subject / Topic">
                             <textarea placeholder="Type Your Message"></textarea>
                         </form>
                         <a href="#" class="rts-btn btn-primary">Submit Message</a>
@@ -161,7 +161,7 @@
                     <!-- single team inner -->
                     <div class="team-inner-two">
                         <a href="team-details.html" class="thumbnail">
-                            <img src="assets/images/team/tm/lg-01.jpg" alt="">
+                            <img src="assets/images/team/tm/04.jpg" alt="">
                         </a>
                         <!-- Acquaintance area -->
                         <div class="acquaintance-area">
@@ -187,7 +187,7 @@
                     <!-- single team inner -->
                     <div class="team-inner-two">
                         <a href="team-details.html" class="thumbnail">
-                            <img src="assets/images/team/tm/lg-02.jpg" alt="">
+                            <img src="assets/images/team/tm/02.png" alt="">
                         </a>
                         <!-- Acquaintance area -->
                         <div class="acquaintance-area">
@@ -213,7 +213,7 @@
                     <!-- single team inner -->
                     <div class="team-inner-two">
                         <a href="team-details.html" class="thumbnail">
-                            <img src="assets/images/team/tm/lg-03.jpg" alt="">
+                            <img src="assets/images/team/tm/01.jpeg" alt="">
                         </a>
                         <!-- Acquaintance area -->
                         <div class="acquaintance-area">

@@ -103,9 +103,9 @@
                                 <li class="has-droupdown">
                                     <a class="nav-link" href="#">Blog</a>
                                     <ul class="submenu">
-                                        <li><a href="blog-list.html">Blog List</a></li>
-                                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                        <li><a href="{{ route('blogList') }}">Blog List</a></li>
+                                        <li><a href="{{ route('blogGrid') }}">Blog Grid</a></li>
+                                        <li><a href="{{ route('blogDetails') }}">Blog Details</a></li>
                                     </ul>
                                 </li>
                                 <li class="has-droupdown">
@@ -113,7 +113,7 @@
                                     <ul class="submenu menu-link2">
                                         <li class="menu-item">
                                             <ul>
-                                                <li><a href="{{ route('addressBox') }}">Address Box</a></li>
+                                                <li><a href="{{ route('address') }}">Address Box</a></li>
                                                 <li><a href="{{route('blogSlider')}}">Blog Slider</a></li>
                                                 <li><a href="{{route('video')}}">Video Addon</a></li>
                                             </ul>

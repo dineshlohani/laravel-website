@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="index-2.html">Home</a>
+                        <a href="/">Home</a>
                         <span> / </span>
                         <a href="#" class="active">About Us</a>
                     </div>
@@ -131,13 +131,12 @@
                                 </a>
                                 <div class="content">
                                     <img src="assets/images/service/icon/13.svg" alt="Business-icon">
-                                    <h5 class="title">Business Consultancy</h5>
-                                    <p class="disc">Aenean augue venenatis est porttitor fames aptent lobortis nam
-                                        potenti</p>
+                                    <h5 class="title">Japanese Language Courses</h5>
+                                    <p class="disc">Comprehensive courses to prepare students for studying in Japan, covering all proficiency levels</p>
                                 </div>
-                                <a href="service-details.html" class="over_link"></a>
+                                <a href="#" class="over_link"></a>
                             </div>
-                            <a href="service-details.html" class="rts-btn btn-primary"> Read More<i
+                            <a href="#" class="rts-btn btn-primary"> Read More<i
                                     class="fal fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -150,13 +149,12 @@
                                 </a>
                                 <div class="content">
                                     <img src="assets/images/service/icon/14.svg" alt="Business-icon">
-                                    <h5 class="title">Business Appoinment</h5>
-                                    <p class="disc">Aenean augue venenatis est porttitor fames aptent lobortis nam
-                                        potenti</p>
+                                    <h5 class="title">Visa and Immigration Assistance</h5>
+                                    <p class="disc">We offer comprehensive support to help you secure your student visa, ensuring a smooth and hassle-free process</p>
                                 </div>
-                                <a href="service-details.html" class="over_link"></a>
+                                <a href="#" class="over_link"></a>
                             </div>
-                            <a href="service-details.html" class="rts-btn btn-primary"> Read More<i
+                            <a href="#" class="rts-btn btn-primary"> Read More<i
                                     class="fal fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -169,16 +167,16 @@
                                 </a>
                                 <div class="content">
                                     <img src="assets/images/service/icon/15.svg" alt="Business-icon">
-                                    <h5 class="title">Consultancy Foundation</h5>
-                                    <p class="disc">Aenean augue venenatis est porttitor fames aptent lobortis nam
-                                        potenti</p>
+                                    <h5 class="title">Educational Consultancy</h5>
+                                    <p class="disc">Personalized guidance for studying abroad, from university selection to application assistance</p>
                                 </div>
-                                <a href="service-details.html" class="over_link"></a>
+                                <a href="#" class="over_link"></a>
                             </div>
-                            <a href="service-details.html" class="rts-btn btn-primary"> Read More<i
+                            <a href="#" class="rts-btn btn-primary"> Read More<i
                                     class="fal fa-arrow-right"></i></a>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             <div class="row">
@@ -189,7 +187,7 @@
                                 make your business better</h3>
                         </div>
                         <div class="cta-right">
-                            <a class="rts-btn btn-white" href="#">Lets Work Togather</a>
+                            <a class="rts-btn btn-white" href="{{ route('appointment') }}">Lets Work Togather</a>
                         </div>
                     </div>
                 </div>
@@ -216,14 +214,40 @@
                 <div class="col-xl-4 col-md-6 col-sm-12 col-12">
                     <!-- single team inner -->
                     <div class="team-inner-two">
-                        <a href="team-details.html" class="thumbnail">
-                            <img src="assets/images/team/tm/lg-01.jpg" alt="">
+                        <a href="#" class="thumbnail">
+                            <img src="assets/images/team/tm/01.jpeg" alt="">
                         </a>
                         <!-- Acquaintance area -->
                         <div class="acquaintance-area">
                             <div class="header">
-                                <a href="team-details.html">
-                                    <h5 class="title">Kevin Martin</h5>
+                                <a href="#">
+                                    <h5 class="title">Bishal Dhamala</h5>
+                                </a>
+                                <span>CEO</span>
+                            </div>
+                            <div class="acquaintance-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <!-- Acquaintance area -->
+                    </div>
+                    <!-- single team inner End -->
+                </div>
+                <!-- single team End -->
+                <!-- single team -->
+                <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                    <!-- single team inner -->
+                    <div class="team-inner-two">
+                        <a href="#" class="thumbnail">
+                            <img src="assets/images/team/tm/04.jpg" alt="">
+                        </a>
+                        <!-- Acquaintance area -->
+                        <div class="acquaintance-area">
+                            <div class="header">
+                                <a href="#">
+                                    <h5 class="title">Indira Lohani</h5>
                                 </a>
                                 <span>Consultant</span>
                             </div>
@@ -242,42 +266,16 @@
                 <div class="col-xl-4 col-md-6 col-sm-12 col-12">
                     <!-- single team inner -->
                     <div class="team-inner-two">
-                        <a href="team-details.html" class="thumbnail">
-                            <img src="assets/images/team/tm/lg-02.jpg" alt="">
+                        <a href="#" class="thumbnail">
+                            <img src="assets/images/team/tm/02.png" alt="">
                         </a>
                         <!-- Acquaintance area -->
                         <div class="acquaintance-area">
                             <div class="header">
-                                <a href="team-details.html">
-                                    <h5 class="title">Martin Jone</h5>
+                                <a href="#">
+                                    <h5 class="title">Dinesh Lohani</h5>
                                 </a>
-                                <span>Manager</span>
-                            </div>
-                            <div class="acquaintance-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <!-- Acquaintance area -->
-                    </div>
-                    <!-- single team inner End -->
-                </div>
-                <!-- single team End -->
-                <!-- single team -->
-                <div class="col-xl-4 col-md-6 col-sm-12 col-12">
-                    <!-- single team inner -->
-                    <div class="team-inner-two">
-                        <a href="team-details.html" class="thumbnail">
-                            <img src="assets/images/team/tm/lg-03.jpg" alt="">
-                        </a>
-                        <!-- Acquaintance area -->
-                        <div class="acquaintance-area">
-                            <div class="header">
-                                <a href="team-details.html">
-                                    <h5 class="title">Jone Lee</h5>
-                                </a>
-                                <span>CEO</span>
+                                <span>Co-Founder</span>
                             </div>
                             <div class="acquaintance-social">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -303,8 +301,8 @@
                     <div class="faq-two-inner">
                         <div class="title-area-faq">
                             <span class="sub">WHY CHOOSE US</span>
-                            <h2 class="title">We Are Experienced
-                                <span class="sm-title">Business <span>Solution</span></span>
+                            <h2 class="title">WE ARE EXPERIENCED  
+                                <span class="sm-title">IN EDUCATIONAL <span> CONSULTANCY</span></span>
                             </h2>
                         </div>
                         <!-- faq accordion area -->
@@ -312,43 +310,59 @@
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <span>01. </span> What should i included my personal details?
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            <span>01. </span> Extensive Expertise in Educational Consultancy
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Neque partrient nascetur facilisis suscipit ridiculus agna lobortis
-                                            imperdiet vivamus est aliquam euismod nector quam convallis ornare justo
-                                            service lifereu visionary sources unleash online businesss solutions
+                                        With over 8 years of experience in guiding students towards their academic goals,
+                                         we have a deep understanding of the challenges and opportunities in the field of international education.
+                                         Our expert counselors are dedicated to helping students navigate the complexities
+                                          of university applications and admissions processes.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span>02. </span> Where i can find my business growth result?
+                                            <span>02. </span> Proven Track Record of Student Success
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Neque partrient nascetur facilisis suscipit ridiculus agna lobortis
-                                            imperdiet vivamus est aliquam euismod nector quam convallis ornare justo
-                                            service lifereu visionary sources unleash online businesss solutions
+                                        We have a robust track record of placing students in top universities around the world.
+                                         Our results speak for themselves, with high acceptance rates
+                                          and numerous success stories from our satisfied clients.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <span>03. </span> Did you get any business consultant?
+                                            <span>03. </span> Commitment to Client Satisfaction and Long-Term Success
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Neque partrient nascetur facilisis suscipit ridiculus agna lobortis
-                                            imperdiet vivamus est aliquam euismod nector quam convallis ornare justo
-                                            service lifereu visionary sources unleash online businesss solutions
+                                        Our commitment to excellence is reflected in the satisfaction of our clients.
+                                         With over 1000 happy students and families, we pride ourselves on the positive feedback and testimonials we receive.
+                                         We strive to exceed expectations and deliver exceptional service
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                            <span>04. </span> Comprehensive Support Services from Start to Finish
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                        From selecting the right course and university to visa applications and pre-departure orientations,
+                                         we provide end-to-end support to ensure a smooth transition for our students. Our personalized
+                                         approach ensures each student receives the attention and guidance they need
                                         </div>
                                     </div>
                                 </div>
@@ -375,7 +389,7 @@
                     <p class="pre-title">
                         Feedbacks
                     </p>
-                    <h2 class="title">Customer Feedbacks</h2>
+                    <h2 class="title">Student Feedbacks</h2>
                 </div>
             </div>
             <div class="row g-5 mt--20">
@@ -386,16 +400,14 @@
                                 <img src="assets/images/testimonials/02.png" alt="">
                             </div>
                             <div class="name-desig">
-                                <h5 class="title">David Smith</h5>
-                                <span class="designation">Business Expert</span>
+                                <h5 class="title">David Chand</h5>
+                                <span class="designation">Student</span>
                             </div>
                         </div>
                         <div class="test-body">
                             <p class="disc">
-                                “Parallel task user friendly convergence through supply are chains type siflify reliable
-                                meta provide service visionary sources unleash tactical thinking via granular
-                                intellectual capital architect dynamic information value online business solution
-                                services”
+                            “The team at Shinjiru Educational Consultancy is amazing! They provided me with all the resources and support 
+                            I needed to master the Japanese language. Thanks to them, I am well-prepared for my exchange program in Japan.”
                             </p>
                         </div>
                     </div>
@@ -408,15 +420,13 @@
                             </div>
                             <div class="name-desig">
                                 <h5 class="title">David Smith</h5>
-                                <span class="designation">Business Expert</span>
+                                <span class="designation">Student</span>
                             </div>
                         </div>
                         <div class="test-body">
                             <p class="disc">
-                                “Parallel task user friendly convergence through supply are chains type siflify reliable
-                                meta provide service visionary sources unleash tactical thinking via granular
-                                intellectual capital architect dynamic information value online business solution
-                                services”
+                                “Choosing Shinjiru Educational Consultancy was the best decision for my academic career. The instructors are incredibly knowledgeable, 
+                                and the curriculum is perfectly tailored to help students succeed in Japan. I am grateful for the wonderful learning experience”
                             </p>
                         </div>
                     </div>
