@@ -1,25 +1,23 @@
-<!-- resources/views/partials/header.blade.php -->
-
-<header class="header--sticky header-one ">
+<header class="header--sticky header-one">
     <div class="header-top header-top-one bg-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-xl-block d-none">
                     <div class="left">
                         <div class="mail">
-                            <a href="mailto:webmaster@example.com"><i class="fal fa-envelope"></i> shinjirueducational@gmail.com</a>
+                            <a href="mailto:shinjirueducational@gmail.com"><i class="fal fa-envelope"></i> shinjirueducational@gmail.com</a>
                         </div>
                         <div class="working-time" id="working-time">
                             <p><i class="fal fa-clock"></i> Working: 6.00am - 5.00pm &nbsp;&nbsp; </p>
                         </div>
-                        <div id="status">  </div> <!-- New div for the status -->
+                        <div id="status"></div> <!-- New div for the status -->
                     </div>
                 </div>
                 <div class="col-lg-6 d-xl-block d-none">
                     <div class="right">
                         <ul class="top-nav">
                             <li><a href="{{ route('about') }}">About</a></li>
-                            <li><a href="{{ route('about') }}">News</a></li>
+                            <li><a href="#">News</a></li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>
                         <ul class="social-wrapper-one">
@@ -38,7 +36,7 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                     <div class="thumbnail">
-                        <a href="index-2.html">
+                        <a href="#">
                             <img src="assets/images/logo/logo.png" alt="shinjiru-logo">
                         </a>
                     </div>
@@ -54,14 +52,12 @@
                                             <a class="tag" href="#">Multipages</a>
                                             <ul>
                                                 <li><a href="/">Main Home</a></li>
-                                                
                                             </ul>
                                         </li>
                                         <li class="menu-item">
                                             <a class="tag" href="#">Onepages</a>
                                             <ul>
                                                 <li><a href="{{ route('home') }}">Main Home</a></li>
-                                               
                                             </ul>
                                         </li>
                                     </ul>
@@ -89,13 +85,13 @@
                                                 <li><a href="{{ route('appointment') }}">Appointment</a></li>
                                                 <li><a href="{{ route('about') }}">About Us</a></li>
                                                 <li><a href="{{ route('serviceone') }}">Our Services</a></li>
-                                                <li><a href="{{route('testimonial')}}">Testimonial</a></li>
+                                                <li><a href="{{ route('testimonial') }}">Testimonial</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item">
                                             <a class="tag" href="#">Our Teams</a>
                                             <ul>
-                                                <li><a href="{{route('team')}}">Team Details</a></li>
+                                                <li><a href="{{ route('team') }}">Team Details</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -114,8 +110,8 @@
                                         <li class="menu-item">
                                             <ul>
                                                 <li><a href="{{ route('address') }}">Address Box</a></li>
-                                                <li><a href="{{route('blogSlider')}}">Blog Slider</a></li>
-                                                <li><a href="{{route('video')}}">Video Addon</a></li>
+                                                <li><a href="{{ route('blogSlider') }}">Blog Slider</a></li>
+                                                <li><a href="{{ route('video') }}">Video Addon</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item">
@@ -127,7 +123,7 @@
                                         </li>
                                         <li class="menu-item">
                                             <ul>
-                                                <li><a href="{{route('ourcompany')}}">Our Company</a></li>
+                                                <li><a href="{{ route('ourcompany') }}">Our Company</a></li>
                                                 <li><a href="{{ route('counter') }}">Counter Up</a></li>
                                             </ul>
                                         </li>
@@ -137,8 +133,11 @@
                             </ul>
                         </nav>
                         <div class="button-area">
-                        <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button>
-                        
+                            <!-- Search Button -->
+                            <form action="{{ route('search') }}" method="GET" style="display: inline;">
+                                <input type="text" name="query" placeholder="Search..." class="search-input" style="display: none;" />
+                                <button type="button" id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button>
+                            </form>
                             <a href="#" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Get Quote</a>
                             <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
                                 <img class="menu-dark" src="assets/images/icon/menu.png" alt="Menu-icon">
@@ -170,8 +169,26 @@
         }
 
         workingTimeDiv.appendChild(statusText);
+
+        // Toggle search bar visibility
+        var searchButton = document.getElementById('search');
+        var searchInput = document.querySelector('.search-input');
+
+        searchButton.addEventListener('click', function() {
+            if (searchInput.style.display === 'none' || searchInput.style.display === '') {
+                searchInput.style.display = 'inline-block';
+                searchInput.focus();
+            } else {
+                // Submit the form if the input is visible
+                searchInput.closest('form').submit();
+            }
+        });
+
+        // Hide search input when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!searchInput.contains(event.target) && !searchButton.contains(event.target)) {
+                searchInput.style.display = 'none';
+            }
+        });
     });
-
-    
 </script>
-
