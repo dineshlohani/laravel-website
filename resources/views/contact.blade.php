@@ -4,7 +4,7 @@
 @section('title', 'Contact | Shinjiru Educational')
 
 @section('content')
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
 <body>
     
@@ -150,18 +150,36 @@
                             <h2 class="title">Needs Help? Let’s Get in Touch</h2>
                         </div>
                         <div class="form-wrapper">
-                            <div id="form-messages"></div>
-                            <form id="contact-form" action="
-                            <!-- https://reactheme.com/products/html/ /mailer.php -->
-                            " method="post">
-                                <div class="name-email">
-                                    <input type="text" name="name" placeholder="Your Name" required>
-                                    <input type="email" name="email" placeholder="Email Address" required>
+                        <div id="form-messages">
+                        @if(session('success'))
+                                <div class="alert alert-success">{{ session('success') }}</div>
+                            @endif
+                            @if(session('error'))
+                                <div class="alert alert-danger">{{ session('error') }}</div>
+                            @endif
+                            @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
                                 </div>
+                            @endif
+                        </div>
+                        <form id="contact-form" action="{{ route('contact.store') }}" method="post">
+                            @csrf
+                            <div class="name-email">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="name-email">
                                 <input type="text" name="subject" placeholder="Your Subject">
-                                <textarea placeholder="Type Your Message" name="message"></textarea>
-                                <button type="submit" class="rts-btn btn-primary">Send Message</button>
-                            </form>
+                                <input type="tel" name="contact_no" placeholder="Your Contact no">
+                            </div>
+                            <textarea placeholder="Type Your Message" name="message"></textarea>
+                            <button type="submit" class="rts-btn btn-primary">Send Message</button>
+                        </form>
                         </div>
                     </div>
                 </div>
@@ -171,10 +189,51 @@
     <!-- conact us form fluid end -->
 
 
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('contact-form');
+        const formMessages = document.getElementById('form-messages');
 
+        form.addEventListener('submit', function(event) {
+            // Prevent the form from submitting normally
+            event.preventDefault();
 
-   
-   
-</body>
+            // Perform the AJAX request
+            fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form),
+                headers: {
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Display the personalized success message
+                    formMessages.innerHTML = '<div class="alert alert-success">Thank you ' + data.name + ' for contacting us. Your message has been sent successfully! We will contact you very soon.</div>';
+                    
+                    // Clear the form fields
+                    form.reset();
+                } else {
+                    // Display the error message
+                    formMessages.innerHTML = '<div class="alert alert-danger">' + data.message + '</div>';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                formMessages.innerHTML = '<div class="alert alert-danger">There was an error submitting your message. Please try again.</div>';
+            });
+        });
 
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contact-form');
+            const submitButton = form.querySelector('button[type="submit"]');
+
+            form.addEventListener('submit', function() {
+                // Disable the submit button to prevent multiple submissions
+                submitButton.disabled = true;
+            });
+        });
+    });
+</script>
 @endsection

@@ -170,25 +170,24 @@
 
         workingTimeDiv.appendChild(statusText);
 
-        // Toggle search bar visibility
         var searchButton = document.getElementById('search');
-        var searchInput = document.querySelector('.search-input');
+    var searchInput = document.querySelector('.search-input');
 
-        searchButton.addEventListener('click', function() {
-            if (searchInput.style.display === 'none' || searchInput.style.display === '') {
-                searchInput.style.display = 'inline-block';
-                searchInput.focus();
-            } else {
-                // Submit the form if the input is visible
-                searchInput.closest('form').submit();
-            }
-        });
-
-        // Hide search input when clicking outside
-        document.addEventListener('click', function(event) {
-            if (!searchInput.contains(event.target) && !searchButton.contains(event.target)) {
-                searchInput.style.display = 'none';
-            }
-        });
+    searchButton.addEventListener('click', function() {
+        if (searchInput.style.display === 'none' || searchInput.style.display === '') {
+            searchInput.style.display = 'inline-block';
+            searchInput.focus();
+        } else {
+            // Submit the form if the input is visible
+            searchInput.closest('form').submit();
+        }
     });
+
+    // Hide search input when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!searchInput.contains(event.target) && !searchButton.contains(event.target)) {
+            searchInput.style.display = 'none';
+        }
+    });
+});
 </script>

@@ -2,6 +2,8 @@
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ElementController;
+use App\Http\Controllers\QuoteController;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', [PageController::class, 'index']);
 Route::get('/One-page-home', [PageController::class, 'home'])->name('home');
@@ -44,3 +46,5 @@ Route::get('/blog-details', [PageController::class, 'blogDetails'])->name('blogD
 
 
 Route::get('/search', [SearchController::class, 'index'])->name('search');
+Route::post('/quote', [QuoteController::class, 'store'])->name('quote.store');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');

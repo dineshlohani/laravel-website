@@ -109,7 +109,7 @@
                                                 Foster successful and fulfilling futures for all our clients
                                                 </p>
                                             </div>
-                                            <a class="rts-btn btn-primary-2 color-h-black" href="#">Contact Us</a>
+                                            <a class="rts-btn btn-primary-2 color-h-black" href="{{ route('contact') }}">Contact Us</a>
                                         </div>
                                         <!-- start tab content End -->
                                     </div>

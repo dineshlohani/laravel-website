@@ -48,8 +48,8 @@
                             <ul class="links margin-left-70">
                                 <li><a href="{{ route('about') }}"><i class="far fa-arrow-right"></i> About Us</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i> My Account</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Our Company</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Service</a></li>
+                                <li><a href="{{ route('ourcompany') }}"><i class="far fa-arrow-right"></i>Our Company</a></li>
+                                <li><a href="{{ route('about') }}"><i class="far fa-arrow-right"></i>Service</a></li>
                             </ul>
                         </div>
                     </div>

@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="index-2.html">Home</a>
+                        <a href="/">Home</a>
                         <span> / </span>
                         <a href="#" class="active">Contact Form</a>
                     </div>
@@ -32,24 +32,41 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
-                    <div class="contact-form-area-one">
-                        <div class="rts-title-area contact text-start">
-                            <p class="pre-title">
-                                Make An Appointment
-                            </p>
-                            <h2 class="title">Request a free quote</h2>
-                        </div>
-                        <div id="form-messages"></div>
-                        <form id="contact-form" action="#" method="post">
-                            <div class="name-email">
-                                <input type="text" placeholder="Your Name" name="name" required>
-                                <input type="email" placeholder="Email Address" name="email" required>
-                            </div>
-                            <input type="text" placeholder="Education Topic" name="subject">
-                            <textarea placeholder="Type Your Message" name="message"></textarea>
-                            <button type="submit" class="rts-btn btn-primary">Submit Message</button>
-                        </form>
+                <div class="contact-form-area-one">
+        <div class="rts-title-area contact-appoinment text-start">
+            <p class="pre-title">
+                Make An Appointment
+            </p>
+            <h2 class="title">Request a free quote</h2>
+            <div id="form-messages">
+            @if(session('success'))
+                    <div class="alert alert-success">{{ session('success') }}</div>
+                @endif
+                @if(session('error'))
+                    <div class="alert alert-danger">{{ session('error') }}</div>
+                @endif
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
                     </div>
+                @endif
+            </div>
+            <form id="contact-form" action="{{ route('quote.store') }}" method="POST">
+                @csrf
+                <div class="name-email">
+                    <input type="text" placeholder="Your Name" name="name" required>
+                    <input type="email" placeholder="Email Address" name="email" required>
+                </div>
+                <input type="text" placeholder="Topic" name="subject">
+                <textarea placeholder="Type Your Message" name="message" required></textarea>
+                <button type="submit" class="rts-btn btn-primary">Submit Message</button>
+            </form>
+        </div>
+    </div>
                 </div>
             </div>
         </div>
@@ -106,8 +123,25 @@
                 <div class="col-lg-5">
                     <div class="bg-input-project">
                         <div class="product-form">
-                            <div id="form-messages"></div>
-                            <form id="contact-form" action=" " method="post">
+                            <div id="form-messages">
+                            @if(session('success'))
+                    <div class="alert alert-success">{{ session('success') }}</div>
+                        @endif
+                        @if(session('error'))
+                            <div class="alert alert-danger">{{ session('error') }}</div>
+                        @endif
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        </div>
+                        <form id="contact-form" action="{{ route('quote.store') }}" method="post">
+                            @csrf
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <input type="text" placeholder="Your Name" name="name" required>
@@ -122,7 +156,8 @@
                                         <textarea placeholder="Your Comment" name="message"></textarea>
                                     </div>
                                     <div class="col-12 mt--35">
-                                        <button class="rts-btn btn-primary-3 color-h-black" type="submit">Get in Touch</button>
+                                    <button type="submit" class="rts-btn btn-primary-3 color-h-black">SGet in Touch</button>
+                                        
                                     </div>
                                 </div>
                             </form>
@@ -132,5 +167,46 @@
             </div>
         </div>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contact-form');
+            const formMessages = document.getElementById('form-messages');
 
+            form.addEventListener('submit', function(event) {
+                // Prevent the form from submitting normally
+                event.preventDefault();
+
+                // Perform the AJAX request
+                fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: {
+                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                    }
+                })
+                .then(response => response.text())
+                .then(data => {
+                    // Display the success message
+                    formMessages.innerHTML = '<div class="alert alert-success">Your message has been sent successfully!</div>';
+
+                    // Clear the form fields
+                    form.reset();
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    formMessages.innerHTML = '<div class="alert alert-danger">There was an error submitting your message. Please try again.</div>';
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contact-form');
+            const submitButton = form.querySelector('button[type="submit"]');
+
+            form.addEventListener('submit', function() {
+                // Disable the submit button to prevent multiple submissions
+                submitButton.disabled = true;
+            });
+        });
+    </script>
 @endsection

@@ -115,28 +115,43 @@
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
-                    <div class="contact-form-area-one">
-                        <div class="rts-title-area contact-appoinment text-start">
-                            <p class="pre-title">
-                                Make An Appointment
-                            </p>
-                            <h2 class="title">Request a free quote</h2>
-                        </div>
-                        <form action="#">
-                            <div class="name-email">
-                                <input type="text" placeholder="Your Name">
-                                <input type="email" placeholder="Email Address">
-                            </div>
-                            <div class="name-email">
-                                <input type="text" placeholder="Phone Number">
-                                <input type="Text" placeholder="Address">
-                            </div>
-                            <input type="text" placeholder="Subject / Topic">
-                            <textarea placeholder="Type Your Message"></textarea>
-                        </form>
-                        <a href="#" class="rts-btn btn-primary">Submit Message</a>
+    <div class="contact-form-area-one">
+        <div class="rts-title-area contact-appoinment text-start">
+            <p class="pre-title">
+                Make An Appointment
+            </p>
+            <h2 class="title">Request a free quote</h2>
+            <div id="form-messages">
+            @if(session('success'))
+                    <div class="alert alert-success">{{ session('success') }}</div>
+                @endif
+                @if(session('error'))
+                    <div class="alert alert-danger">{{ session('error') }}</div>
+                @endif
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
                     </div>
+                @endif
+            </div>
+            <form id="contact-form" action="{{ route('quote.store') }}" method="POST">
+                @csrf
+                <div class="name-email">
+                    <input type="text" placeholder="Your Name" name="name" required>
+                    <input type="email" placeholder="Email Address" name="email" required>
                 </div>
+                <input type="text" placeholder="Topic" name="subject">
+                <textarea placeholder="Type Your Message" name="message" required></textarea>
+                <button type="submit" class="rts-btn btn-primary">Submit Message</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
             </div>
         </div>
     </div>
@@ -237,6 +252,55 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('contact-form');
+        const formMessages = document.getElementById('form-messages');
+
+        form.addEventListener('submit', function(event) {
+            // Prevent the form from submitting normally
+            event.preventDefault();
+
+            // Perform the AJAX request
+            fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form),
+                headers: {
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Display the personalized success message
+                    formMessages.innerHTML = '<div class="alert alert-success">Thank you ' + data.name + ' for contacting us. Your message has been sent successfully! We will contact you very soon.</div>';
+                    
+                    // Clear the form fields
+                    form.reset();
+                } else {
+                    // Display the error message
+                    formMessages.innerHTML = '<div class="alert alert-danger">' + data.message + '</div>';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                formMessages.innerHTML = '<div class="alert alert-danger">There was an error submitting your message. Please try again.</div>';
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contact-form');
+            const submitButton = form.querySelector('button[type="submit"]');
+
+            form.addEventListener('submit', function() {
+                // Disable the submit button to prevent multiple submissions
+                submitButton.disabled = true;
+            });
+        });
+    });
+</script>
 
 
 
