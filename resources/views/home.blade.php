@@ -489,7 +489,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                             </div>
                         </div>
                             <div class="goal-button-wrapper mt--70">
-                                <a href="c{{ route('contact') }}" class="rts-btn btn-primary color-h-black">Contact Us</a>
+                                <a href="{{ route('contact') }}" class="rts-btn btn-primary color-h-black">Contact Us</a>
                                 <div class="vedio-icone">
                                     <a id="play-video" class="video-play-button" href="#">
                                         <span></span>

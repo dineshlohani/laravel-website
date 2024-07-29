@@ -74,7 +74,7 @@
                                 <p class="day">Saturday</p>
                                 <p class="time">Day Off</p>
                             </div>
-                            <a href="#" class="rts-btn btn-primary contact-us">Contact Us</a>
+                            <a href="{{ route('contact') }}" class="rts-btn btn-primary contact-us">Contact Us</a>
                         </div>
                     </div>
                 </div>

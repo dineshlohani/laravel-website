@@ -55,6 +55,8 @@
                 </div>
                 <!-- team single end -->
                 <!-- team single start -->
+              
+
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="team-single-one-start">
                         <div class="team-image-area">
@@ -65,9 +67,9 @@
                                         <i class="fal fa-plus"></i>
                                     </div>
                                     <div class="team-social-one">
-                                    <a href="https://www.linkedin.com/in/shinjiru-education-04ab612bb/"><i class="fab fa-linkedin"></i></a>
-                                    <a href="https://www.linkedin.com/in/shinjiru-education-04ab612bb/"> <i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/in/shinjiru-education-04ab612bb/"><i class="fab fa-instagram"></i></a>
+                                        <i class="fab fa-youtube"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-instagram"></i>
                                     </div>
                                 </div>
                             </a>
@@ -182,7 +184,7 @@
                         </div>
                         <div class="single-details">
                             <a href="#.html">
-                                <h5 class="title">Amelia Clover</h5>
+                                <h5 class="title">Chhirng Sherpa</h5>
                             </a>
                             <p>Language Teacher</p>
                         </div>
@@ -209,7 +211,7 @@
                         </div>
                         <div class="single-details">
                             <a href="#.html">
-                                <h5 class="title">Beckett Hayden</h5>
+                                <h5 class="title">Binu Shrestha</h5>
                             </a>
                             <p>Language Teacher</p>
                         </div>

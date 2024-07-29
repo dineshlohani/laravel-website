@@ -77,12 +77,15 @@
             </div>
         </div>
     </header>
-    
-<script>
+    <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var today = new Date();
-        var day = today.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
-        var hour = today.getHours(); // Current hour (0-23)
+        // Nepali time offset is UTC+5:45
+        var now = new Date();
+        var utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+        var nepaliTime = new Date(utc + (345 * 60000)); // 345 minutes is 5 hours and 45 minutes
+
+        var day = nepaliTime.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+        var hour = nepaliTime.getHours(); // Current hour (0-23)
 
         var workingTimeDiv = document.querySelector('.working-time p');
         var statusText = document.createElement('span');
@@ -96,7 +99,26 @@
         }
 
         workingTimeDiv.appendChild(statusText);
-    });
 
-    
+        var searchButton = document.getElementById('search');
+        var searchInput = document.querySelector('.search-input');
+
+        searchButton.addEventListener('click', function() {
+            if (searchInput.style.display === 'none' || searchInput.style.display === '') {
+                searchInput.style.display = 'inline-block';
+                searchInput.focus();
+            } else {
+                // Submit the form if the input is visible
+                searchInput.closest('form').submit();
+            }
+        });
+
+        // Hide search input when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!searchInput.contains(event.target) && !searchButton.contains(event.target)) {
+                searchInput.style.display = 'none';
+            }
+        });
+    });
 </script>
+
