@@ -2,25 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "public/index.php",
-            "use": "@vercel/php"
+            "src": "Dockerfile",
+            "use": "@vercel/docker"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/public/index.php"
+            "dest": "/index.php"
         }
-    ],
-    "build": {
-        "env": {
-            "DEBIAN_FRONTEND": "noninteractive"
-        },
-        "steps": [
-            {
-                "name": "Install Dependencies",
-                "run": "apt-get update && apt-get install -y libssl1.0.0 libssl-dev"
-            }
-        ]
-    }
+    ]
 }
