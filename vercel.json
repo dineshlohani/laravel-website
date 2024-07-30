@@ -2,11 +2,12 @@
     "version": 2,
     "builds": [
         {
-            "src": "server.php",
-            "use": "@vercel/php"
+            "src": "public/index.php",
+            "use": "@vercel/php",
+            "config": { "maxLambdaSize": "15mb" }
         },
         {
-            "src": "public/index.php",
+            "src": "api/index.php",
             "use": "@vercel/php"
         }
     ],
