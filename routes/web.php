@@ -4,6 +4,8 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ElementController;
 use App\Http\Controllers\QuoteController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AdminController;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'index']);
 Route::get('/One-page-home', [PageController::class, 'home'])->name('home');
@@ -48,3 +50,23 @@ Route::get('/blog-details', [PageController::class, 'blogDetails'])->name('blogD
 Route::get('/search', [SearchController::class, 'index'])->name('search');
 Route::post('/quote', [QuoteController::class, 'store'])->name('quote.store');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+
+
+
+
+
+
+// Show the admin login form
+Route::get('/admin-login', [AdminController::class, 'showLoginForm'])->name('admin.login');
+
+// Handle the admin login submission
+Route::post('/admin-login', [AdminController::class, 'login'])->name('admin.login.submit');
+
+// Show the admin dashboard (protected by 'auth:admin' middleware)
+Route::get('/admin-dashboard', [AdminController::class, 'dashboard'])->middleware('auth:admin')->name('admin.dashboard');
+
+// Handle admin logout
+Route::post('/admin-logout', [AdminController::class, 'logout'])->middleware('auth:admin')->name('admin.logout');
+
+// Create a new admin user
+Route::post('/create-admin', [AdminController::class, 'createAdmin'])->middleware('auth:admin')->name('admin.create');
