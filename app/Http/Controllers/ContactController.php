@@ -35,4 +35,29 @@ class ContactController extends Controller
             return response()->json(['success' => false, 'message' => 'There was an error submitting your message. Please try again.']);
         }
     }
+
+    public function getTotalMessages()
+{
+    try {
+        // Get the total number of messages
+        $totalMessages = Contact::count();
+
+        // Return a JSON response with the count
+        return response()->json(['success' => true, 'totalMessages' => $totalMessages]);
+    } catch (\Exception $e) {
+        // Return a JSON response with an error message
+        return response()->json(['success' => false, 'message' => 'There was an error retrieving the message count.']);
+    }
 }
+
+public function showDashboard()
+{
+    // Fetch the contact messages
+    $contacts = Contact::orderBy('created_at', 'desc')->get();
+
+    // Pass the contacts to the view
+    return view('admin.dashboard', compact('contacts'));
+}
+}
+
+

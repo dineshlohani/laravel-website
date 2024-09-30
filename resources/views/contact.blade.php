@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="index-2.html">Home</a>
+                        <a href="/">Home</a>
                         <span> / </span>
                         <a href="#" class="active">Contact Us</a>
                     </div>
@@ -60,7 +60,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="assets/images/contact/01.png" alt="">
+                            <img src="assets/images/contact/call.jpg" alt="">
                         </div>
                         <div class="content">
                             <div class="icone">
@@ -100,7 +100,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-contact-one-inner">
                         <div class="thumbnail">
-                            <img src="assets/images/contact/03.png" alt="">
+                            <img src="assets/images/contact/location.png" alt="">
                         </div>
                         <div class="content">
                             <div class="icone">

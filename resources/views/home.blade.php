@@ -165,7 +165,7 @@
                                 <div class="author-inner">
                                     <a class="thumbnail" href="#"><img src="assets/images/about/image.png" alt="finbiz_founder"></a>
                                     <div class="founder-details">
-                                        <a href="team-details.html">
+                                        <a href="#">
                                             <h6 class="title">Bishal Dhamala</h6>
                                         </a>
                                         <span>CEO & Founder</span>
@@ -241,7 +241,7 @@
                         <img src="assets/images/service/icon/01.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Educational / Working Planning</h5>
                         </a>
                         <p class="disc">
@@ -250,7 +250,7 @@
                         our expert advisors help you navigate the best pathways to achieve your 
                         goals, ensuring a successful and fulfilling experience.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -264,7 +264,7 @@
                         <img src="assets/images/service/icon/visa.png" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Visa Process</h5>
                         </a>
                         <p class="disc">
@@ -272,7 +272,7 @@
                          that all necessary steps are completed accurately and efficiently. 
                         Trust us to make your journey abroad stress-free.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -286,14 +286,14 @@
                         <img src="assets/images/service/icon/document.png" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Documentation Guidance</h5>
                         </a>
                         <p class="disc">
                         We offer expert documentation guidance to ensure your application process is smooth and hassle-free. From visa applications 
                         to school enrollment paperwork, our experienced team is here to assist you every step of the way.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -307,7 +307,7 @@
                         <img src="assets/images/service/icon/04.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Language Classes</h5>
                         </a>
                         <p class="disc">
@@ -316,7 +316,7 @@ At Shinjiru Educational Consultancy, we offer high-quality language courses taug
 backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a peaceful, friendly,
  and well-equipped environment. Join us to master Japanese with expert guidance!
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -330,7 +330,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/05.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Interview Preparation Class</h5>
                         </a>
                         <p class="disc">
@@ -338,7 +338,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         and confidence needed to excel in interviews. Through personalized coaching 
                         and mock interviews, we help you master effective communication and presentation techniques to make a lasting impression.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -352,7 +352,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/06.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Career Counselling</h5>
                         </a>
                         <p class="disc">
@@ -360,7 +360,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                          help you navigate your professional journey. Whether you're exploring career options, seeking job opportunities,
                          or planning your future, our experienced advisors offer expert advice and support tailored to your goals.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -372,14 +372,14 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/test.webp" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Test Preparation </h5>
                         </a>
                         <p class="disc">
                         Get ready for language exams with our help! Our teachers will show you everything
                          you need to know for the test. We make studying easy with personalized lessons and lots of helpful materials.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -393,7 +393,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/education.webp" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Educational Pathway Planning</h5>
                         </a>
                         <p class="disc">
@@ -401,7 +401,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                          effective course for your academic journey. We provide tailored advice and support to ensure you 
                         choose the right programs and institutions to achieve your educational and career objectives.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -415,7 +415,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         <img src="assets/images/service/icon/post.svg" alt=" _service">
                     </div>
                     <div class="service-details">
-                        <a href="service-details.html">
+                        <a href="#">
                             <h5 class="title">Post Arrival Support</h5>
                         </a>
                         <p class="disc">
@@ -423,7 +423,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                         We assist with everything from settling in, navigating local customs, to finding accommodation and
                          accessing essential services, providing you with peace of mind as you embark on your new journey.
                         </p>
-                        <a class="rts-read-more btn-primary" href="service-details.html"><i
+                        <a class="rts-read-more btn-primary" href="#"><i
                                 class="far fa-arrow-right"></i>Read
                             More</a>
                     </div>
@@ -596,7 +596,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                         <p class="disc">Language Proficiency Achievements showcase our success in
                                              helping students attain high fluency levels, opening doors to global opportunities.
                                         </p>
-                                        <a class="rts-btn btn-primary" href="project-details.html">View Project</a>
+                                        <a class="rts-btn btn-primary" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
@@ -620,7 +620,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                         <p class="disc">Study Abroad Success Stories highlight our students' achievements
                                              and experiences in top international institutions, paving the way for their global careers.
                                         </p>
-                                        <a class="rts-btn btn-primary" href="project-details.html">View Project</a>
+                                        <a class="rts-btn btn-primary" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
@@ -643,7 +643,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                         <span>Case Study, Growth</span>
                                         <p class="disc"> Student Placements highlight our success in guiding students to
                                              secure admissions in top institutions, ensuring their academic and career growth.</p>
-                                        <a class="rts-btn btn-primary" href="project-details.html">View Project</a>
+                                        <a class="rts-btn btn-primary" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
@@ -668,7 +668,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                             covers every human activity. Business is really concerned with the
                                             production.
                                         </p>
-                                        <a class="rts-btn btn-primary" href="project-details.html">View Project</a>
+                                        <a class="rts-btn btn-primary" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
@@ -728,7 +728,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <div class="swiper-slide">
                         <div class="team-single-one-start">
                             <div class="team-image-area">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <img src="assets/images/team/tm/01.jpeg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
@@ -743,7 +743,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                 </a>
                             </div>
                             <div class="single-details">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <h5 class="title">Bishal Dhamala</h5>
                                 </a>
                                 <p>Founder</p>
@@ -753,7 +753,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <div class="swiper-slide">
                         <div class="team-single-one-start">
                             <div class="team-image-area">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <img src="assets/images/team/tm/02.png" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
@@ -768,7 +768,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                 </a>
                             </div>
                             <div class="single-details">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <h5 class="title">Dinesh Lohani</h5>
                                 </a>
                                 <p>Co-Founder</p>
@@ -778,7 +778,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <div class="swiper-slide">
                         <div class="team-single-one-start">
                             <div class="team-image-area">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <img src="assets/images/team/tm/03.jpeg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
@@ -793,7 +793,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                 </a>
                             </div>
                             <div class="single-details">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <h5 class="title">Prestige Burlakoti</h5>
                                 </a>
                                 <p>Deputy Manager</p>
@@ -803,7 +803,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <div class="swiper-slide">
                         <div class="team-single-one-start">
                             <div class="team-image-area">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <img src="assets/images/team/tm/04.jpg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
@@ -818,7 +818,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                 </a>
                             </div>
                             <div class="single-details">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <h5 class="title">Indira Lohani</h5>
                                 </a>
                                 <p>Consultant</p>
@@ -828,7 +828,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <div class="swiper-slide">
                         <div class="team-single-one-start">
                             <div class="team-image-area">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <img src="assets/images/team/tm/05.jpeg" alt="Business_Team_single">
                                     <div class="team-social">
                                         <div class="main">
@@ -843,7 +843,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                 </a>
                             </div>
                             <div class="single-details">
-                                <a href="team-details.html">
+                                <a href="#">
                                     <h5 class="title">Bikash Dhamala</h5>
                                 </a>
                                 <p>Manager</p>
@@ -913,7 +913,7 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                     <p class="pre-title">
                         Our Testimonials
                     </p>
-                    <h2 class="title">Student’s Feedbacks</h2>
+                    <h2 class="title"> Feedbacks</h2>
 
                     <!-- swiper area start -->
                     <div class="swiper mySwipertestimonial">
@@ -950,13 +950,13 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                     </p>
                                     <div class="testimonial-bottom-one">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/02.png" alt="business-testimonials">
+                                            <img src="assets/images/testimonials/Bishal.png" alt="business-testimonials">
                                         </div>
                                         <div class="details">
                                             <a href="#">
-                                                <h5 class="title">David Smith</h5>
+                                                <h5 class="title">Bishal Dhamala</h5>
                                             </a>
-                                            <span>JHKL Owner</span>
+                                            <span> Owner</span>
                                         </div>
                                     </div>
                                 </div>
@@ -972,13 +972,13 @@ backgrounds.We provide comprehensive Japanese courses (NAT, JLPT N5 to N1) in a 
                                     </p>
                                     <div class="testimonial-bottom-one">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/02.png" alt="business-testimonials">
+                                            <img src="assets/images/testimonials/dineshl.png" alt="business-testimonials">
                                         </div>
                                         <div class="details">
                                             <a href="#">
                                                 <h5 class="title">Dinesh Lohani</h5>
                                             </a>
-                                            <span>JHKL Owner</span>
+                                            <span>Co-founder/IT </span>
                                         </div>
                                     </div>
                                 </div>

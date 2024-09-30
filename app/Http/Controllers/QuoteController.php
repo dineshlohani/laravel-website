@@ -18,7 +18,7 @@ class QuoteController extends Controller
     ]);
 
     try {
-        // Create a new quote recordfgdgdfhhh
+        // Create a new quote record
         Quote::create($validatedData);
 
         // Redirect back with a success message
@@ -27,5 +27,22 @@ class QuoteController extends Controller
         // Redirect back with an error message
         return redirect()->back()->with('error', 'There was an error submitting your message. Please try again.');
     }
-}
+    }
+
+    public function getTotalQuotes()
+    {
+        try {
+            // Get the total number of quotes
+            $totalQuotes = Quote::count();
+
+            // Return a JSON response with the count
+            return response()->json(['success' => true, 'totalQuotes' => $totalQuotes]);
+        } catch (\Exception $e) {
+            // Return a JSON response with an error message
+            return response()->json(['success' => false, 'message' => 'There was an error retrieving the quote count.']);
+        }
+    }
+    
+
+
 }

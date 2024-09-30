@@ -14,6 +14,8 @@
                     <div class="bread-tag">
                         <a href="/">Home</a>
                         <span> / </span>
+                        <a href="#" class="active">Elements</a>
+                        <span> / </span>
                         <a href="#" class="active">Our Company</a>
                     </div>
                 </div>

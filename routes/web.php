@@ -18,6 +18,12 @@ Route::view('/footer', 'footer');
 Route::view('/sidebar', 'sidebar');
 Route::view('/script', 'script');
 
+Route::view('/header1', 'header1');
+Route::view('/head', 'head');
+Route::view('/scripts', 'scripts');
+Route::view('/footers', 'footers');
+Route::view('/sidebars', 'sidebars');
+
 // Pages route
 Route::get('/about-us', [PageController::class, 'aboutUs'])->name('about');
 Route::get('/take-appointment', [PageController::class, 'appointment'])->name('appointment');
@@ -58,15 +64,25 @@ Route::post('/contact', [ContactController::class, 'store'])->name('contact.stor
 
 // Show the admin login form
 Route::get('/admin-login', [AdminController::class, 'showLoginForm'])->name('admin.login');
+Route::get('/admin/signup', function () {  return view('admin.signup');})->name('signup')->middleware('auth:admin');
+
 
 // Handle the admin login submission
 Route::post('/admin-login', [AdminController::class, 'login'])->name('admin.login.submit');
 
-// Show the admin dashboard (protected by 'auth:admin' middleware)
-Route::get('/admin-dashboard', [AdminController::class, 'dashboard'])->middleware('auth:admin')->name('admin.dashboard');
+// // Show the admin dashboard (protected by 'auth:admin' middleware)
+Route::get('/admin-dashboard', [ContactController::class, 'showDashboard'])->middleware('auth:admin')->name('admin.dashboard');
+
+
 
 // Handle admin logout
 Route::post('/admin-logout', [AdminController::class, 'logout'])->middleware('auth:admin')->name('admin.logout');
 
 // Create a new admin user
 Route::post('/create-admin', [AdminController::class, 'createAdmin'])->middleware('auth:admin')->name('admin.create');
+
+Route::get('/total-messages', [ContactController::class, 'getTotalMessages']);
+Route::get('/total-quotes', [QuoteController::class, 'getTotalQuotes']);
+
+Route::get('/admin/dashboard', [AdminController::class, 'showDashboard'])->middleware('auth:admin');
+

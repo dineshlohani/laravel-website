@@ -100,7 +100,7 @@
                                     </div>
                                     <div class="discription">
                                         <span>Need any help?</span>
-                                        <h5 class="title-sm">+977 9851361016</h5>
+                                        <h5 class="title-sm">+977 9851361016, 01-5920716</h5>
                                     </div>
                                 </div>
                                 <!-- single-contact info End -->

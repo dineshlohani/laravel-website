@@ -48,6 +48,12 @@ class AdminController extends Controller
         return view('admin.dashboard');
     }
 
+    // Show the signup form (new method)
+    public function showSignupForm()
+    {
+        return view('admin.signup');
+    }
+
     // Handle logout
     public function logout()
     {
@@ -67,7 +73,7 @@ class AdminController extends Controller
 
         // Create the admin user
         $admin = Admin::create([
-            'name'=>$request->name,
+            'name' => $request->name,
             'username' => $request->username,
             'password' => Hash::make($request->password),
         ]);

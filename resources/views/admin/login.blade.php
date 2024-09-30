@@ -15,6 +15,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
         }
 
@@ -99,9 +100,31 @@
             font-size: 12px;
             color: #fff;
         }
+
+        .back-home-button {
+            display: block;
+            background: #fff;
+            color: #ff0057;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            width: 150px;
+            text-align: center;
+            transition: background 0.3s ease;
+        }
+
+        .back-home-button:hover {
+            background: #ff0057;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
+
+<a href="{{ url('/') }}" class="back-home-button">Back to Home</a>
 
 <div class="login-box">
     <div class="logo">

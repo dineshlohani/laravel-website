@@ -95,10 +95,10 @@
                                 </div>
                                 <div class="post-right">
                                     <p> <i class="fal fa-clock"></i> 15th April, 2024</p>
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h6 class="title">Top Educational Tips For Success</h6>
                                     </a>
-                                    <a class="red-more" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
+                                    <a class="red-more" href="F">Read More<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                             <!-- single post End -->
@@ -109,10 +109,10 @@
                                 </div>
                                 <div class="post-right">
                                     <p> <i class="fal fa-clock"></i> 17th April, 2024</p>
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h6 class="title">Latest Educational Trends You Should Know</h6>
                                     </a>
-                                    <a class="red-more" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
+                                    <a class="red-more" href="#">Read More<i class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
                             <!-- single post End -->

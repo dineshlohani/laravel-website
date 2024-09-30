@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="bread-tag">
-                        <a href="index-2.html">Home</a>
+                        <a href="/">Home</a>
                         <span> / </span>
                         <a href="#" class="active">Videos</a>
                     </div>
@@ -88,7 +88,7 @@
             <div class="row g-5">
                 <div class="col-lg-5">
                     <div class="about-three-thumbnail-left">
-                        <img src="assets/images/about/main/05.jpg" alt="Business-about">
+                        <img src="assets/images/about/main/guide.jpg" alt="Business-about">
                         <div class="about-sm-thumb">
                             <img src="assets/images/about/main/about-01-sm.jpg" alt="business_about-sm">
                         </div>
