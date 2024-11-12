@@ -48,7 +48,7 @@
                                         </p>
                                         <div class="testimonial-bottom-one">
                                             <div class="thumbnail">
-                                                <img src="assets/images/testimonials/02.png" alt="business-testimonials">
+                                                <img src="assets/images/testimonials/Man.png" alt="business-testimonials">
                                             </div>
                                             <div class="details">
                                                 <a href="#">
@@ -73,7 +73,7 @@
                                             </div>
                                             <div class="details">
                                                 <a href="#">
-                                                    <h5 class="title">David Saha</h5>
+                                                    <h5 class="title">Sabin Saha</h5>
                                                 </a>
                                                 <span>Prospective Exchange Student</span>
                                             </div>
@@ -89,7 +89,7 @@
                                         </p>
                                         <div class="testimonial-bottom-one">
                                             <div class="thumbnail">
-                                                <img src="assets/images/testimonials/02.png" alt="business-testimonials">
+                                                <img src="assets/images/testimonials/04.png" alt="business-testimonials">
                                             </div>
                                             <div class="details">
                                                 <a href="#">
@@ -110,7 +110,7 @@
                                         </p>
                                         <div class="testimonial-bottom-one">
                                             <div class="thumbnail">
-                                                <img src="assets/images/testimonials/02.png" alt="business-testimonials">
+                                                <img src="assets/images/testimonials/Man.png" alt="business-testimonials">
                                             </div>
                                             <div class="details">
                                                 <a href="#">
@@ -131,11 +131,11 @@
                                         </p>
                                         <div class="testimonial-bottom-one">
                                             <div class="thumbnail">
-                                                <img src="assets/images/testimonials/02.png" alt="business-testimonials">
+                                                <img src="assets/images/testimonials/Man.png" alt="business-testimonials">
                                             </div>
                                             <div class="details">
                                                 <a href="#">
-                                                    <h5 class="title">Biraj </h5>
+                                                    <h5 class="title">Chhirng Sherpa </h5>
                                                 </a>
                                                 <span>Future Japanese Language Teacher</span>
                                             </div>
@@ -187,11 +187,11 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/02.png" alt="testimonials_area">
+                                            <img src="assets/images/testimonials/Man.png" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
-                                                <h6 class="title">David Smith</h6>
+                                                <h6 class="title">Dipak Palli Magar </h6>
                                             </a>
                                             <span>Aspiring Student</span>
                                         </div>
@@ -220,11 +220,11 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/03.png" alt="testimonials_area">
+                                            <img src="assets/images/testimonials/Man.png" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
-                                                <h6 class="title">Mark Jone</h6>
+                                                <h6 class="title">Ram Bahadur Magar </h6>
                                             </a>
                                             <span>Future International Worker</span>
                                         </div>
@@ -253,11 +253,11 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/04.png" alt="testimonials_area">
+                                            <img src="assets/images/testimonials/Man.png" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
-                                                <h6 class="title">Alam Khan</h6>
+                                                <h6 class="title"> Sanam Ale Magar</h6>
                                             </a>
                                             <span>School Applicant</span>
                                         </div>
@@ -287,13 +287,13 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/04.png" alt="testimonials_area">
+                                            <img src="assets/images/testimonials/Man.png" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
-                                                <h6 class="title">Alam Khan</h6>
+                                                <h6 class="title"> Chhirng Sherpa</h6>
                                             </a>
-                                            <span>Future Japanese Language Teacher</span>
+                                            <span> Japanese Language Teacher</span>
                                         </div>
                                     </div>
                                     <div class="review-body">
@@ -321,11 +321,11 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/04.png" alt="testimonials_area">
+                                            <img src="assets/images/testimonials/Man.png" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
-                                                <h6 class="title">Alam Khan</h6>
+                                                <h6 class="title">Dipa Khan</h6>
                                             </a>
                                             <span>Prospective Exchange Student</span>
                                         </div>
